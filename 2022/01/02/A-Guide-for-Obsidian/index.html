@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="light">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="John Doe" />
+  <meta name="description" content="" />
+  
+  
+  <title>
+    
+      Obsidian应用指南 
+      
+      
+      |
+    
+     Stan7s
+  </title>
+
+  
+    <link rel="apple-touch-icon" href="/images/IMG_1849.JPG">
+    <link rel="icon" href="/images/IMG_1849.JPG">
+  
+
+  <!-- Raleway-Font -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+  <!-- hexo site css -->
+  
+<link rel="stylesheet" href="/css/color-scheme.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/iconfont/iconfont.css">
+<link rel="stylesheet" href="/css/github-markdown.css">
+<link rel="stylesheet" href="/css/highlight.css">
+<link rel="stylesheet" href="/css/comments.css">
+
+
+  <!-- jquery3.3.1 -->
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- fancybox -->
+  <link href="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.css" rel="stylesheet">
+  <script async src="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+  
+<script src="/js/fancybox.js"></script>
+
+
+  
+
+  <script>
+    var html = document.documentElement
+    const colorMode = localStorage.getItem('color-mode')
+    if (colorMode) {
+      document.documentElement.setAttribute('color-mode', colorMode)
+    }
+  </script>
+
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+
+  <body>
+    <div id="app">
+      <div class="header">
+  <div class="avatar">
+    <a href="/">
+      <!-- 头像取消懒加载，添加no-lazy -->
+      
+        <img src="/images/IMG_1850.JPG" alt="">
+      
+    </a>
+    <div class="nickname"><a href="/">Stan7s</a></div>
+  </div>
+  <div class="navbar">
+    <ul>
+      
+        <li class="nav-item" data-path="/">
+          <a href="/">Home</a>
+        </li>
+      
+        <li class="nav-item" data-path="/archives/">
+          <a href="/archives/">Archives</a>
+        </li>
+      
+        <li class="nav-item" data-path="/tags/">
+          <a href="/tags/">Tags</a>
+        </li>
+      
+        <li class="nav-item" data-path="/about/">
+          <a href="/about/">About</a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<script src="/js/activeNav.js"></script>
+
+
+
+      <div class="flex-container">
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">Obsidian应用指南</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="Update time"></i>
+          2022-01-02 15:13:31
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="Tags"></i>
+                
+                <span class="span--tag">
+                  <a href="/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/" title="软件配置">
+                    <b>#</b> 软件配置
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/" title="笔记软件">
+                    <b>#</b> 笔记软件
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/%E5%8F%8C%E5%90%91%E9%93%BE%E6%8E%A5/" title="双向链接">
+                    <b>#</b> 双向链接
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/Wiki/" title="Wiki">
+                    <b>#</b> Wiki
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <blockquote>
+<p>Welcome to my Vault! 👻👻</p>
+</blockquote>
+<p>像<a href="https://stan7s.github.io/2022/01/02/2021-summary/">年度总结</a>里提到的那样，新年是在Obsidian的“地窖 (Vault)”（相当于OneNote里的笔记本）里度过的。对于双链笔记的讨论网上已经有很多。对目前仅写了几十个词条的我而言，它的作用还远没有到“激发新灵感”那一步。我单纯地享受构造的过程（不学工程真是可惜了x）。</p>
+<p>相对于其他笔记应用，Obsidian最大的优点就是<strong>抗造</strong>。之前深度使用过思源笔记，它早期有段时间markdown语法渲染问题挺多，经常出现排版混乱；笔记数量多到一定程度会卡顿；最头疼的是每次更新时需要备份并创建新文件夹，强迫症如我为了不更改路径只能先挪出来再挪回去。当然按照作者的迭代速度，这些现在很可能都已经修复了。获得一致好评的Notion像精致餐厅，服务无懈可击，标签颜色像寿司一样一个个给你设计好；但侍者面带标准微笑，一句话都不会跟你多聊，你也不知道他在想什么（存储基于云端）。更早一些的笔记应用（为知笔记、印象笔记、OneNote、幕布）更是连API都很少或干脆没有。Obsidian则完全基于本地markdown，不（主动）同步也不加密，主题设置里直接鼓励你上手改CSS，即时渲染也没有出现过错误，除了中文输入法导致的markdown语法输入有点小问题（例如输入一个*会出现三个***）之外，可以做到无痛排版。</p>
+<p>Obsidian对自定义的高度支持也满足了软件爱好者的探索欲。例如在开启vim语法支持时，它会告诉你“vim很危险，请输入exit without saving的命令来证明你不是小白”。在开启Community Plugins时，会提示“第三方插件可能偷看你的照片，阅读你的邮件，你确定要关闭Safe Mode吗？”尽管社区的活跃生态明明离不开官方的鼓励。这种“先吓唬你一下，之后随便你折腾”且折腾之后不出bug的体验还是很有趣的。</p>
+<p>基本使用方法就不介绍了，参见<a target="_blank" rel="noopener" href="https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/2021%E5%B9%B4%E6%96%B0%E6%95%99%E7%A8%8B">Obsidian中文教程</a>。下面是一些个人使用技巧。</p>
+<h1 id="同步篇"><a href="#同步篇" class="headerlink" title="同步篇"></a>同步篇</h1><h2 id="Windows和iOS同步"><a href="#Windows和iOS同步" class="headerlink" title="Windows和iOS同步"></a>Windows和iOS同步</h2><h3 id="指南"><a href="#指南" class="headerlink" title="指南"></a>指南</h3><p><a target="_blank" rel="noopener" href="https://help.obsidian.md/Obsidian/iOS+app">Obsidian Help</a>里这样描述iOS同步功能：</p>
+<blockquote>
+<p>If you already have a vault on your desktop, here’s the two ways to sync your vault to mobile and access it:</p>
+<ul>
+<li>iCloud Drive Sync</li>
+<li>Obsidian Sync</li>
+</ul>
+<p>The two current officially supported sync solutions are iCloud and Obsidian Sync.<br>Working Copy (git) is another alternative that has been tested to work with Obsidian on iOS.</p>
+<p>Currently, there is <strong>no</strong> known support for the following sync services on iOS yet:</p>
+<ul>
+<li>Dropbox</li>
+<li>Google Drive</li>
+<li>OneDrive</li>
+<li>Syncthing</li>
+</ul>
+<p>If you find out a way to sync using these services on iOS with Obsidian, we would be glad if you can join our Discord server and teach us how to set it up.</p>
+</blockquote>
+<p>后面还有一段在解释为什么不支持绝大多数第三方同步。核心意思是说，Obsidian的工作基于整个Vault而不是单个文档，当一个文档被更改，Vault中其他相关的一堆文件 (反向链接、图片嵌入、自动补全等）都会跟着更改。大多数markdown编辑器只针对单个文档，而第三方同步服务往往也只提供单个文档的下载、编辑和上传的API。Obsidian的每次编辑都要update几乎整个Vault，由此导致的延迟会引发很多错误。有一些同步服务可以通过第三方App设置实现（例如DropSync和FolderSync），但由于iOS的app sandboxing，iPhone用户就不要想了。</p>
+<p>下面记录我通过iCloud实现桌面端和手机端的Obsidian同步的过程。</p>
+<h3 id="初始状态"><a href="#初始状态" class="headerlink" title="初始状态"></a>初始状态</h3><ul>
+<li>桌面端 (Windows)：一个Obsidian App和一个存储笔记的文件夹（假设路径为<code>path\to\my_obsidian\my_vault</code>）。尚未安装iCloud App.</li>
+<li>手机端 (iOS)：一个刚安装还没打开过的Obsidian App.</li>
+</ul>
+<h3 id="警告"><a href="#警告" class="headerlink" title="警告"></a>警告</h3><p>开始操作前务必备份<code>my_obsidian</code>文件夹。</p>
+<h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol>
+<li>在桌面端安装iCloud App。云盘默认路径是<code>C:\Users\&#123;your_username&#125;\iCloudDrive</code>，且不易更改（🍎真有你的）。</li>
+<li>在手机端打开Obsidian App，选择 Create New Vault，随便输一个名称（例如<code>my_vault_2</code>，但不重要），勾选iCloud同步。</li>
+<li>此时桌面端的云盘路径下应该有了Obsidian创建的文件夹。注意文件夹名称很可能不是<code>Obsidian</code>而是<code>iCloud~md~obsidian</code>。完整路径即<code>C:\Users\&#123;your_username&#125;\iCloudDrive\iCloud~md~obsidian</code>。</li>
+<li>在桌面端将<code>my_vault</code>文件夹复制到<code>C:\Users\&#123;your_username&#125;\iCloudDrive\iCloud~md~obsidian</code>路径下。</li>
+<li>在手机端打开Command Palette，搜索并点击 “Open Another Vault”，选择<code>my_vault</code>。熟悉的地窖出现了！</li>
+<li>删除旧路径下的<code>my_obsidian</code>文件夹。</li>
+</ol>
+<p>至此已经实现了桌面端和手机端的同步。注意此时桌面端的笔记存储路径变成了iCloud云盘，之前的路径失效了。如果想更新到云盘下的路径，需要在桌面端Obsidian App重新打开云盘下的<code>my_vault</code>文件夹。</p>
+<p>如果想仍然想沿用之前的路径，可以继续以下操作（有风险且没必要，如果有步骤不理解的话不建议操作）：</p>
+<ol start="7">
+<li>在桌面端打开cmd，执行<code>mklink -J &quot;path\to\my_obsidian&quot; &quot;C:\Users\&#123;your_username&#125;\iCloudDrive\iCloud~md~obsidian&quot;</code>。<strong>注意：1) mklink是cmd的内置命令，因此必须在cmd（而不是Powershell）执行。2) 由于<code>mklink [[/d] | [/h] | [/j]] &lt;link&gt; &lt;target&gt;</code> 是将 target 映射到新创建的 link，因此必须保证 link 的路径不存在（即必须执行步骤6）。</strong><code>mklink</code>的文档见<a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink">这里</a>。</li>
+<li>此时<code>path\to\my_obsidian\my_vault</code>重新出现。</li>
+<li>在桌面端打开Obsidian App，能正常打开说明映射成功。</li>
+</ol>
+<h3 id="【2022-01-05】更新：iCloud云盘同步频繁出错，10KB大小的文件同步几分钟，提示“No-file”同时无法打开任何文件。慎用。"><a href="#【2022-01-05】更新：iCloud云盘同步频繁出错，10KB大小的文件同步几分钟，提示“No-file”同时无法打开任何文件。慎用。" class="headerlink" title="【2022-01-05】更新：iCloud云盘同步频繁出错，10KB大小的文件同步几分钟，提示“No file”同时无法打开任何文件。慎用。"></a>【2022-01-05】更新：iCloud云盘同步<strong>频繁出错</strong>，10KB大小的文件同步几分钟，提示“No file”同时无法打开任何文件。慎用。</h3><h1 id="插件篇"><a href="#插件篇" class="headerlink" title="插件篇"></a>插件篇</h1><h2 id="External-Links-自动发现潜在链接的插件"><a href="#External-Links-自动发现潜在链接的插件" class="headerlink" title="External Links: 自动发现潜在链接的插件"></a>External Links: 自动发现潜在链接的插件</h2><p>该官方插件 (Core Plugin) 有两个功能：(1) Links: 罗列出当前文档中包含的指向其他文档的链接；(2) Unlinked Mentions: 罗列出<strong>当前文档的正文</strong>中提及的<strong>其他文档的名字</strong>，并询问是否插入链接。</p>
+<h3 id="如何开启"><a href="#如何开启" class="headerlink" title="如何开启"></a>如何开启</h3><p><code>Settings -&gt; Core Plugins -&gt; Open External Links</code>。开启后最右侧工具栏上方会多出一个<code>Outgoing Link</code>图标。</p>
+<p>写到这里想到，如果用NLP model做一个基于语义的链接发现插件可能会很有趣。</p>
+<h2 id="Dictionary-简单美丽的词典插件"><a href="#Dictionary-简单美丽的词典插件" class="headerlink" title="Dictionary: 简单美丽的词典插件"></a>Dictionary: 简单美丽的词典插件</h2><p><img src="/images/obsidian_plugin_dictionary.png" alt="obsidian_plugin_dictionary"></p>
+<p>上图是不是看起来像一个词典界面呢！其实它是一个一键（三键）生成的markdown文档。在用Obsidian做笔记的过程中遇到生词，只需要一秒钟就可以获得一个集音标、释义、例句、同义词、词源、甚至mp3于一体的生词卡片，并保存在指定目录下，之后可以回顾整理、导入Anki、导出csv或者任意引用。</p>
+<h3 id="如何开启-1"><a href="#如何开启-1" class="headerlink" title="如何开启"></a>如何开启</h3><ol>
+<li><code>Settings -&gt; Community plugins -&gt; Browse -&gt; 搜索 &quot;Dictionary&quot; -&gt; Install</code>. （如果开启了Safe Mode需要先将其关闭：<code>Settings -&gt; Community plugins -&gt; Safe Mode -&gt; Turn off</code>）</li>
+<li>安装后<code>Settings</code>主界面下方 <code>PLUGIN OPTIONS</code> 列表会出现一个新标签 <code>Dictionary</code>。点击该标签，开启<code>Synonym Suggestions</code>和<code>Show Options in Context Menu</code>. 还可以进行一系列自定义设置，包括多语种、保存路径、排版方式等。</li>
+<li>回到主界面，最右侧工具栏上方会多出一个词典图标。</li>
+</ol>
+<p><img src="/images/obsidian_plugin_dictionary_full.png" alt="obsidian_plugin_dictionary_full"></p>
+<h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><ol>
+<li>以上图为例，在左侧文档<code>&quot;Writing a paper step by step&quot;</code>标题下，选中单词<code>&quot;fleeting&quot;</code>(若已开启<code>Synonym Suggestions</code>, 会自动显示其同义词)。若已开启<code>Show Options in Context Menu</code>，单击右键 -&gt; 选择<code>Look up</code>, 最右侧工具栏会出现词典解释。</li>
+<li>点击工具栏上方<code>New Note</code>按钮，即可将词典解释保存成markdown文档。开启预览模式即可看到图中右侧文档效果。</li>
+<li>给左侧文档中的原单词加上<code>[[]]</code> (<code>fleeting</code> -&gt; <code>[[fleeting]]</code>)，选择弹窗中建议的链接，即可将该单词链接到右侧文档。</li>
+</ol>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2022/01/02/2021-summary/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="Update time"></i>
+              2022-01-02 15:13:31
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="Tags"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/" title="软件配置">
+                        <b>#</b> 软件配置
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/" title="笔记软件">
+                        <b>#</b> 笔记软件
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/%E5%8F%8C%E5%90%91%E9%93%BE%E6%8E%A5/" title="双向链接">
+                        <b>#</b> 双向链接
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/Wiki/" title="Wiki">
+                        <b>#</b> Wiki
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
+        </div>
+      
+    </div>
+    
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%90%8C%E6%AD%A5%E7%AF%87"><span class="toc-text">同步篇</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Windows%E5%92%8CiOS%E5%90%8C%E6%AD%A5"><span class="toc-text">Windows和iOS同步</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%87%E5%8D%97"><span class="toc-text">指南</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E5%A7%8B%E7%8A%B6%E6%80%81"><span class="toc-text">初始状态</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AD%A6%E5%91%8A"><span class="toc-text">警告</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4"><span class="toc-text">步骤</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%80%902022-01-05%E3%80%91%E6%9B%B4%E6%96%B0%EF%BC%9AiCloud%E4%BA%91%E7%9B%98%E5%90%8C%E6%AD%A5%E9%A2%91%E7%B9%81%E5%87%BA%E9%94%99%EF%BC%8C10KB%E5%A4%A7%E5%B0%8F%E7%9A%84%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5%E5%87%A0%E5%88%86%E9%92%9F%EF%BC%8C%E6%8F%90%E7%A4%BA%E2%80%9CNo-file%E2%80%9D%E5%90%8C%E6%97%B6%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E4%BB%BB%E4%BD%95%E6%96%87%E4%BB%B6%E3%80%82%E6%85%8E%E7%94%A8%E3%80%82"><span class="toc-text">【2022-01-05】更新：iCloud云盘同步频繁出错，10KB大小的文件同步几分钟，提示“No file”同时无法打开任何文件。慎用。</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8F%92%E4%BB%B6%E7%AF%87"><span class="toc-text">插件篇</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#External-Links-%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E6%BD%9C%E5%9C%A8%E9%93%BE%E6%8E%A5%E7%9A%84%E6%8F%92%E4%BB%B6"><span class="toc-text">External Links: 自动发现潜在链接的插件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%BC%80%E5%90%AF"><span class="toc-text">如何开启</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Dictionary-%E7%AE%80%E5%8D%95%E7%BE%8E%E4%B8%BD%E7%9A%84%E8%AF%8D%E5%85%B8%E6%8F%92%E4%BB%B6"><span class="toc-text">Dictionary: 简单美丽的词典插件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%BC%80%E5%90%AF-1"><span class="toc-text">如何开启</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8"><span class="toc-text">如何使用</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
+    
+  </div>
+
+
+        <div class="footer">
+  <div class="social">
+    <ul>
+      
+        <li>
+          <a title="github" target="_blank" rel="noopener" href="https://github.com/Stan7s/stan7s.github.io">
+            <i class="iconfont icon-github"></i>
+          </a>
+        </li>
+      
+        <li>
+          <a title="email" href="">
+            <i class="iconfont icon-envelope"></i>
+          </a>
+        </li>
+      
+        <li>
+          <a title="facebook" href="">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        </li>
+      
+        <li>
+          <a title="twitter" href="">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        </li>
+      
+        <li>
+          <a title="wechat" href="">
+            <i class="iconfont icon-wechat"></i>
+          </a>
+        </li>
+      
+        <li>
+          <a title="weibo" href="">
+            <i class="iconfont icon-weibo"></i>
+          </a>
+        </li>
+      
+        <li>
+          <a title="rss" href="/atom.xml">
+            <i class="iconfont icon-rss"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+  
+    <div class="footer-more">
+      
+        <a target="_blank" rel="noopener" href="https://github.com/Stan7s/stan7s.github.io">Copyright © Stan7s 2021</a>
+        
+    </div>
+  
+    <div class="footer-more">
+      
+        <a target="_blank" rel="noopener" href="https://github.com/zchengsite/hexo-theme-oranges">Theme by Oranges | Powered by Hexo</a>
+        
+    </div>
+  
+</div>
+
+      </div>
+
+      <div class="tools-bar">
+        <div class="back-to-top tools-bar-item hidden">
+  <a href="javascript: void(0)">
+    <i class="iconfont icon-chevronup"></i>
+  </a>
+</div>
+
+
+<script src="/js/backtotop.js"></script>
+
+
+
+        
+  <div class="search-icon tools-bar-item" id="search-icon">
+    <a href="javascript: void(0)">
+      <i class="iconfont icon-search"></i>
+    </a>
+  </div>
+
+  <div class="search-overlay hidden">
+    <div class="search-content" tabindex="0">
+      <div class="search-title">
+        <span class="search-icon-input">
+          <a href="javascript: void(0)">
+            <i class="iconfont icon-search"></i>
+          </a>
+        </span>
+        
+          <input type="text" class="search-input" id="search-input" placeholder="Search...">
+        
+        <span class="search-close-icon" id="search-close-icon">
+          <a href="javascript: void(0)">
+            <i class="iconfont icon-close"></i>
+          </a>
+        </span>
+      </div>
+      <div class="search-result" id="search-result"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var inputArea = document.querySelector("#search-input")
+    var searchOverlayArea = document.querySelector(".search-overlay")
+
+    inputArea.onclick = function() {
+      getSearchFile()
+      this.onclick = null
+    }
+
+    inputArea.onkeydown = function() {
+      if(event.keyCode == 13)
+        return false
+    }
+
+    function openOrHideSearchContent() {
+      let isHidden = searchOverlayArea.classList.contains('hidden')
+      if (isHidden) {
+        searchOverlayArea.classList.remove('hidden')
+        document.body.classList.add('hidden')
+        // inputArea.focus()
+      } else {
+        searchOverlayArea.classList.add('hidden')
+        document.body.classList.remove('hidden')
+      }
+    }
+
+    function blurSearchContent(e) {
+      if (e.target === searchOverlayArea) {
+        openOrHideSearchContent()
+      }
+    }
+
+    document.querySelector("#search-icon").addEventListener("click", openOrHideSearchContent, false)
+    document.querySelector("#search-close-icon").addEventListener("click", openOrHideSearchContent, false)
+    searchOverlayArea.addEventListener("click", blurSearchContent, false)
+
+    var searchFunc = function (path, search_id, content_id) {
+      'use strict';
+      var $input = document.getElementById(search_id);
+      var $resultContent = document.getElementById(content_id);
+      $resultContent.innerHTML = "<ul><span class='local-search-empty'>First search, index file loading, please wait...<span></ul>";
+      $.ajax({
+        // 0x01. load xml file
+        url: path,
+        dataType: "xml",
+        success: function (xmlResponse) {
+          // 0x02. parse xml file
+          var datas = $("entry", xmlResponse).map(function () {
+            return {
+              title: $("title", this).text(),
+              content: $("content", this).text(),
+              url: $("url", this).text()
+            };
+          }).get();
+          $resultContent.innerHTML = "";
+
+          $input.addEventListener('input', function () {
+            // 0x03. parse query to keywords list
+            var str = '<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length <= 0) {
+              return;
+            }
+            // 0x04. perform local searching
+            datas.forEach(function (data) {
+              var isMatch = true;
+              var content_index = [];
+              if (!data.title || data.title.trim() === '') {
+                data.title = "Untitled";
+              }
+              var orig_data_title = data.title.trim();
+              var data_title = orig_data_title.toLowerCase();
+              var orig_data_content = data.content.trim().replace(/<[^>]+>/g, "");
+              var data_content = orig_data_content.toLowerCase();
+              var data_url = data.url;
+              var index_title = -1;
+              var index_content = -1;
+              var first_occur = -1;
+              // only match artiles with not empty contents
+              if (data_content !== '') {
+                keywords.forEach(function (keyword, i) {
+                  index_title = data_title.indexOf(keyword);
+                  index_content = data_content.indexOf(keyword);
+
+                  if (index_title < 0 && index_content < 0) {
+                    isMatch = false;
+                  } else {
+                    if (index_content < 0) {
+                      index_content = 0;
+                    }
+                    if (i == 0) {
+                      first_occur = index_content;
+                    }
+                    // content_index.push({index_content:index_content, keyword_len:keyword_len});
+                  }
+                });
+              } else {
+                isMatch = false;
+              }
+              // 0x05. show search results
+              if (isMatch) {
+                str += "<li><a href='" + data_url + "' class='search-result-title'>" + orig_data_title + "</a>";
+                var content = orig_data_content;
+                if (first_occur >= 0) {
+                  // cut out 100 characters
+                  var start = first_occur - 20;
+                  var end = first_occur + 80;
+
+                  if (start < 0) {
+                    start = 0;
+                  }
+
+                  if (start == 0) {
+                    end = 100;
+                  }
+
+                  if (end > content.length) {
+                    end = content.length;
+                  }
+
+                  var match_content = content.substr(start, end);
+
+                  // highlight all keywords
+                  keywords.forEach(function (keyword) {
+                    var regS = new RegExp(keyword, "gi");
+                    match_content = match_content.replace(regS, "<span class=\"search-keyword\">" + keyword + "</span>");
+                  });
+
+                  str += "<p class=\"search-result-abstract\">" + match_content + "...</p>"
+                }
+                str += "</li>";
+              }
+            });
+            str += "</ul>";
+            if (str.indexOf('<li>') === -1) {
+              return $resultContent.innerHTML = "<ul><span class='local-search-empty'>No result<span></ul>";
+            }
+            $resultContent.innerHTML = str;
+          });
+        },
+        error: function(xhr, status, error) {
+          $resultContent.innerHTML = ""
+          if (xhr.status === 404) {
+            $resultContent.innerHTML = "<ul><span class='local-search-empty'>The search.xml file was not found, please refer to：<a href='https://github.com/zchengsite/hexo-theme-oranges#configuration' target='_black'>configuration</a><span></ul>";
+          } else {
+            $resultContent.innerHTML = "<ul><span class='local-search-empty'>The request failed, Try to refresh the page or try again later.<span></ul>";
+          }
+        }
+      });
+      $(document).on('click', '#search-close-icon', function() {
+        $('#search-input').val('');
+        $('#search-result').html('');
+      });
+    }
+
+    var getSearchFile = function() {
+        var path = "/search.xml";
+        searchFunc(path, 'search-input', 'search-result');
+    }
+  </script>
+
+
+
+
+        
+  <div class="tools-bar-item theme-icon" id="switch-color-scheme">
+    <a href="javascript: void(0)">
+      <i id="theme-icon" class="iconfont icon-moon"></i>
+    </a>
+  </div>
+
+  
+<script src="/js/colorscheme.js"></script>
+
+
+
+
+
+        
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + Obsidian%E5%BA%94%E7%94%A8%E6%8C%87%E5%8D%97 + '&url=' + http%3A%2F%2Fstan7s.github.io%2F2022%2F01%2F02%2FA-Guide-for-Obsidian%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://stan7s.github.io/2022/01/02/A-Guide-for-Obsidian/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
+  
+  
+<script src="/js/shares.js"></script>
+
+
+
+      </div>
+    </div>
+  </body>
+</html>
