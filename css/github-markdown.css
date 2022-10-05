@@ -337,7 +337,7 @@
 }
 
 .markdown-body code {
-  font-family: Consolas, Menlo, Courier,
+  font-family: Consolas, monospace, Courier,
     monospace;
   font-size: 12px;
 }

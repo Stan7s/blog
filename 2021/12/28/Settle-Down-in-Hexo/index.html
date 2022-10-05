@@ -146,14 +146,20 @@ MathJax = {
                 </span>
                 
                 <span class="span--tag">
-                  <a href="/tags/%E5%89%8D%E7%AB%AF/" title="前端">
-                    <b>#</b> 前端
+                  <a href="/tags/Front-end/" title="Front-end">
+                    <b>#</b> Front-end
                   </a>
                 </span>
                 
                 <span class="span--tag">
-                  <a href="/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/" title="软件配置">
-                    <b>#</b> 软件配置
+                  <a href="/tags/Software/" title="Software">
+                    <b>#</b> Software
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/Blog/" title="Blog">
+                    <b>#</b> Blog
                   </a>
                 </span>
                 
@@ -164,36 +170,51 @@ MathJax = {
         <blockquote>
 <p>记录一些Hexo维护相关的命令。</p>
 </blockquote>
-<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>Step 0: 在本地博客目录下打开 Git Bash。<br>Step 1: Clone Theme from Github:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/zchengsite/hexo-theme-oranges.git themes/oranges</span><br></pre></td></tr></table></figure>
+<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>Step 0: 在本地博客目录下打开 Git Bash。<br>Step 1: Clone Theme from Github:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/zchengsite/hexo-theme-oranges.git themes/oranges</span><br></pre></td></tr></table></figure>
 
 <p>Step 2: 编辑<strong>博客目录</strong>下的 _config.yml:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: oranges</span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">oranges</span></span><br></pre></td></tr></table></figure>
 
-<h1 id="写作和发布"><a href="#写作和发布" class="headerlink" title="写作和发布"></a>写作和发布</h1><p>官方文档：<a target="_blank" rel="noopener" href="https://hexo.io/docs/configuration">https://hexo.io/docs/configuration</a></p>
-<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><ul>
+<h2 id="写作和发布"><a href="#写作和发布" class="headerlink" title="写作和发布"></a>写作和发布</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/docs/configuration">官方文档</a></p>
+<h3 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h3><ul>
 <li>新文章：<code>hexo new post &lt;title&gt;</code></li>
 <li>新草稿：<code>hexo new draft &lt;title&gt;</code>。草稿不会显示在博客里。</li>
-<li>发布草稿：<code>hexo publish draft &lt;title&gt;</code>。相当于将草稿转成文章 (从 _draft/ 移动到 _post/)。</li>
+<li>发布草稿：<code>hexo publish draft &lt;title&gt;</code>。将草稿转成文章 (从 <code>_draft/</code> 移动到 <code>_post/</code>)。</li>
 </ul>
-<h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><ul>
+<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><ul>
 <li>预览 (start) ：<code>hexo s</code>,  之后访问<code>localhost:4000</code>。可以实时看到变化。</li>
 <li>生成 (generate)：<code>hexo g</code>。</li>
 <li>部署 (deploy)：<code>hexo d</code>，之后访问博客地址即可。</li>
 <li>清除缓存 (clean)：<code>hexo clean</code>，注意 generate 和 deploy 只会更新 .yml 设置和文章。因此在更改 css 文件后，需要在 generate 之前使用该命令清除缓存。</li>
 </ul>
-<h1 id="代码高亮配色"><a href="#代码高亮配色" class="headerlink" title="代码高亮配色"></a>代码高亮配色</h1><h2 id="多行代码"><a href="#多行代码" class="headerlink" title="多行代码"></a>多行代码</h2><p>比较喜欢浅色高亮。在<code>theme/&#123;current_theme&#125;/source/css/highlight.css</code>中更改了配色。不同博客模板的 css 路径可能不同。<br>参考的配色方案：<a target="_blank" rel="noopener" href="https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light">https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light</a><br>修改后高亮如下：</p>
+<h2 id="代码高亮配色"><a href="#代码高亮配色" class="headerlink" title="代码高亮配色"></a>代码高亮配色</h2><h3 id="多行代码"><a href="#多行代码" class="headerlink" title="多行代码"></a>多行代码</h3><p>比较喜欢浅色高亮。在<code>theme/&#123;current_theme&#125;/source/css/highlight.css</code>中更改了配色。不同博客模板的 css 路径可能不同。<br><a target="_blank" rel="noopener" href="https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light">参考的配色方案</a><br>修改后高亮如下：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@decorator(<span class="params">param=<span class="number">1</span></span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f</span>(<span class="params">x</span>):</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot; Syntax Highlighting Demo</span></span><br><span class="line"><span class="string">        @param x Parameter&quot;&quot;&quot;</span></span><br><span class="line">    s = (<span class="string">&quot;Test&quot;</span>, <span class="number">2</span>+<span class="number">3</span>, &#123;<span class="string">&#x27;a&#x27;</span>: <span class="string">&#x27;b&#x27;</span>&#125;, x)   <span class="comment"># Comment</span></span><br><span class="line">    <span class="built_in">print</span> s[<span class="number">0</span>].lower()</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        byte_string = <span class="string">&#x27;newline:\n also newline:\x0a&#x27;</span></span><br><span class="line">        text_string = <span class="string">u&quot;Cyrillic Я is \u042f. Oops: \u042g&quot;</span></span><br><span class="line">        self.makeSense(whatever=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">makeSense</span>(<span class="params">self, whatever</span>):</span></span><br><span class="line">        self.sense = whatever</span><br><span class="line">        <span class="keyword">if</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">x = <span class="built_in">len</span>(<span class="string">&#x27;abc&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(f.__doc__)</span><br></pre></td></tr></table></figure>
 
-<h2 id="行内代码"><a href="#行内代码" class="headerlink" title="行内代码"></a>行内代码</h2><p>意外发现行内代码的字号被缩小到了85%。而经过实验发现，<code>Consolas</code>字体在缩放到90%以下时会<del>变丑</del>失去灵魂。<br>在<code>theme/&#123;current_theme&#125;/source/css/github-markdown.css</code>中将 font-size 更改到92%。</p>
-<h1 id="标题大小"><a href="#标题大小" class="headerlink" title="标题大小"></a>标题大小</h1><p>一级标题字太大是永远的痛……在<code>theme/&#123;current_theme&#125;/source/css/github-markdown.css</code>中更改了 H1-H3 的标题大小。<br>H1：2em -&gt; 1.5em。<br>H2~H6 效果如下：</p>
-<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>1.5em -&gt; 1.25em。</p>
-<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>1.25em -&gt; 1.125em。</p>
-<h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><p>1em 不变。</p>
-<h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><p>0.875em 不变。</p>
-<h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>0.85em 不变。</p>
-<h1 id="多标签文章"><a href="#多标签文章" class="headerlink" title="多标签文章"></a>多标签文章</h1><p>当给一篇文章添加多个标签时，应使用以下格式：</p>
+<!-- ### 行内代码
+意外发现行内代码的字号被缩小到了85%。而经过实验发现，`Consolas`字体在缩放到90%以下时会~~变丑~~失去灵魂。
+在`theme/{current_theme}/source/css/github-markdown.css`中将 font-size 更改到92%。 -->
+<!-- 
+# 标题大小
+
+一级标题字太大是永远的痛……在`theme/{current_theme}/source/css/github-markdown.css`中更改了 H1-H3 的标题大小。
+H1：2em -> 1.5em。
+H2~H6 效果如下：
+
+## 二级标题 
+1.5em -> 1.25em。
+### 三级标题
+1.25em -> 1.125em。
+#### 四级标题
+1em 不变。
+##### 五级标题
+0.875em 不变。
+###### 六级标题
+0.85em 不变。 -->
+
+<h2 id="多标签文章"><a href="#多标签文章" class="headerlink" title="多标签文章"></a>多标签文章</h2><p>使用以下格式给文章添加多个标签：</p>
 <figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title: Settle Down in Hexo</span><br><span class="line">date: 2021-12-28 16:53:06</span><br><span class="line">tags: </span><br><span class="line"><span class="bullet">-</span> 第一个标签</span><br><span class="line"><span class="bullet">-</span> 第二个标签</span><br><span class="line"><span class="bullet">-</span> 第三个标签</span><br></pre></td></tr></table></figure>
+
       </div>
       
         <div class="prev-or-next">
@@ -216,14 +237,20 @@ MathJax = {
                     </span>
                     
                     <span class="span--tag">
-                      <a href="/tags/%E5%89%8D%E7%AB%AF/" title="前端">
-                        <b>#</b> 前端
+                      <a href="/tags/Front-end/" title="Front-end">
+                        <b>#</b> Front-end
                       </a>
                     </span>
                     
                     <span class="span--tag">
-                      <a href="/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/" title="软件配置">
-                        <b>#</b> 软件配置
+                      <a href="/tags/Software/" title="Software">
+                        <b>#</b> Software
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/Blog/" title="Blog">
+                        <b>#</b> Blog
                       </a>
                     </span>
                     
@@ -231,11 +258,6 @@ MathJax = {
               
           </div>
           <div class="post-foot-prev">
-            
-              <a href="/2022/09/15/My-Favorite-Apps/" target="_self">
-                <span>Next</span>
-                <i class="iconfont icon-chevronright"></i>
-              </a>
             
           </div>
         </div>
@@ -248,7 +270,7 @@ MathJax = {
   <div class="post-catalog hidden" id="catalog">
     <div class="title">Contents</div>
     <div class="catalog-content">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="toc-text">更换主题</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%86%99%E4%BD%9C%E5%92%8C%E5%8F%91%E5%B8%83"><span class="toc-text">写作和发布</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%99%E4%BD%9C"><span class="toc-text">写作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%91%E5%B8%83"><span class="toc-text">发布</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E9%85%8D%E8%89%B2"><span class="toc-text">代码高亮配色</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%9A%E8%A1%8C%E4%BB%A3%E7%A0%81"><span class="toc-text">多行代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81"><span class="toc-text">行内代码</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%87%E9%A2%98%E5%A4%A7%E5%B0%8F"><span class="toc-text">标题大小</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-text">二级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-text">三级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-text">四级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-text">五级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-text">六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A4%9A%E6%A0%87%E7%AD%BE%E6%96%87%E7%AB%A0"><span class="toc-text">多标签文章</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="toc-text">更换主题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%99%E4%BD%9C%E5%92%8C%E5%8F%91%E5%B8%83"><span class="toc-text">写作和发布</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%99%E4%BD%9C"><span class="toc-text">写作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%91%E5%B8%83"><span class="toc-text">发布</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E9%85%8D%E8%89%B2"><span class="toc-text">代码高亮配色</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E8%A1%8C%E4%BB%A3%E7%A0%81"><span class="toc-text">多行代码</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%9A%E6%A0%87%E7%AD%BE%E6%96%87%E7%AB%A0"><span class="toc-text">多标签文章</span></a></li></ol>
     </div>
   </div>
 
