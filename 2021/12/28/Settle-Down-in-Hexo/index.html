@@ -11,7 +11,7 @@
   
   <title>
     
-      Settle Down in Hexo 
+      开端 | Settle Down in Hexo 
       
       
       |
@@ -129,7 +129,7 @@ MathJax = {
   <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
   <div class="container post-details" id="post-details">
     <div class="post-content">
-      <div class="post-title">Settle Down in Hexo</div>
+      <div class="post-title">开端 | Settle Down in Hexo</div>
       <div class="post-attach">
         <span class="post-pubtime">
           <i class="iconfont icon-updatetime" title="Update time"></i>
@@ -173,7 +173,7 @@ MathJax = {
 <h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>Step 0: 在本地博客目录下打开 Git Bash。<br>Step 1: Clone Theme from Github:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/zchengsite/hexo-theme-oranges.git themes/oranges</span><br></pre></td></tr></table></figure>
 
-<p>Step 2: 编辑<strong>博客目录</strong>下的 _config.yml:</p>
+<p>Step 2: 编辑<strong>博客目录</strong>下的 <code>_config.yml</code>:</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">oranges</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="写作和发布"><a href="#写作和发布" class="headerlink" title="写作和发布"></a>写作和发布</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/docs/configuration">官方文档</a></p>
@@ -188,7 +188,7 @@ MathJax = {
 <li>部署 (deploy)：<code>hexo d</code>，之后访问博客地址即可。</li>
 <li>清除缓存 (clean)：<code>hexo clean</code>，注意 generate 和 deploy 只会更新 .yml 设置和文章。因此在更改 css 文件后，需要在 generate 之前使用该命令清除缓存。</li>
 </ul>
-<h2 id="代码高亮配色"><a href="#代码高亮配色" class="headerlink" title="代码高亮配色"></a>代码高亮配色</h2><h3 id="多行代码"><a href="#多行代码" class="headerlink" title="多行代码"></a>多行代码</h3><p>比较喜欢浅色高亮。在<code>theme/&#123;current_theme&#125;/source/css/highlight.css</code>中更改了配色。不同博客模板的 css 路径可能不同。<br><a target="_blank" rel="noopener" href="https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light">参考的配色方案</a><br>修改后高亮如下：</p>
+<h2 id="代码高亮配色"><a href="#代码高亮配色" class="headerlink" title="代码高亮配色"></a>代码高亮配色</h2><h3 id="多行代码"><a href="#多行代码" class="headerlink" title="多行代码"></a>多行代码</h3><p>在<code>theme/&#123;current_theme&#125;/source/css/highlight.css</code>中更改配色。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@decorator(<span class="params">param=<span class="number">1</span></span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f</span>(<span class="params">x</span>):</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot; Syntax Highlighting Demo</span></span><br><span class="line"><span class="string">        @param x Parameter&quot;&quot;&quot;</span></span><br><span class="line">    s = (<span class="string">&quot;Test&quot;</span>, <span class="number">2</span>+<span class="number">3</span>, &#123;<span class="string">&#x27;a&#x27;</span>: <span class="string">&#x27;b&#x27;</span>&#125;, x)   <span class="comment"># Comment</span></span><br><span class="line">    <span class="built_in">print</span> s[<span class="number">0</span>].lower()</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        byte_string = <span class="string">&#x27;newline:\n also newline:\x0a&#x27;</span></span><br><span class="line">        text_string = <span class="string">u&quot;Cyrillic Я is \u042f. Oops: \u042g&quot;</span></span><br><span class="line">        self.makeSense(whatever=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">makeSense</span>(<span class="params">self, whatever</span>):</span></span><br><span class="line">        self.sense = whatever</span><br><span class="line">        <span class="keyword">if</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">x = <span class="built_in">len</span>(<span class="string">&#x27;abc&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(f.__doc__)</span><br></pre></td></tr></table></figure>
 
 <!-- ### 行内代码
@@ -258,6 +258,11 @@ H2~H6 效果如下：
               
           </div>
           <div class="post-foot-prev">
+            
+              <a href="/2022/10/03/The-Testaments/" target="_self">
+                <span>Next</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
             
           </div>
         </div>
@@ -576,7 +581,7 @@ H2~H6 效果如下：
       </a>
       <div class="share-content hidden">
         
-          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + Settle%20Down%20in%20Hexo + '&url=' + http%3A%2F%2Fstan7s.github.io%2F2021%2F12%2F28%2FSettle-Down-in-Hexo%2F + '" target="_blank" title="Twitter">
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E5%BC%80%E7%AB%AF%20%7C%20Settle%20Down%20in%20Hexo + '&url=' + http%3A%2F%2Fstan7s.github.io%2F2021%2F12%2F28%2FSettle-Down-in-Hexo%2F + '" target="_blank" title="Twitter">
             <i class="iconfont icon-twitter"></i>
           </a>
         

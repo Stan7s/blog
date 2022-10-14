@@ -7,19 +7,17 @@
 .markdown-body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  line-height: 2;
+  line-height: 1.75;
   color: #24292e;
-/*  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
-  font-size: 1.6rem;
-  line-height: 2;
+  font-family: Optima, "Songti SC";
+  font-size: 1.6rem ;
   word-wrap: break-word;
   color: var(--color-text-md-content)
 }
 
 @media (max-width: 768px) {
   .markdown-body {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -182,8 +180,8 @@
 .markdown-body code,
 .markdown-body kbd,
 .markdown-body pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
 }
 
 .markdown-body hr {
@@ -336,17 +334,9 @@
   margin-left: 0;
 }
 
-.markdown-body code {
-  font-family: Consolas, monospace, Courier,
-    monospace;
-  font-size: 12px;
-}
-
 .markdown-body pre {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
   font-size: 12px;
 }
 
@@ -440,7 +430,7 @@
   /*margin: 3rem 0;*/
   padding: 15px;
   color: var(--color-block-md-quote);
-  border-left: 0.25em solid var(--color-block-md-quote);
+  border-left: 0.25em solid var(--color-block-md-quote-border);
   background: var(--bg-block-md-quote);
   border-radius: 3px;
 }
@@ -545,16 +535,20 @@
 }
 
 .markdown-body h1 {
+  padding-top: 0.8em;
   padding-bottom: 0.3em;
   font-size: 1.5em;
 }
 
 .markdown-body h2 {
+  padding-top: 0.8em;
   padding-bottom: 0.3em;
   font-size: 1.25em;
 }
 
 .markdown-body h3 {
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
   font-size: 1.125em;
 }
 
@@ -573,7 +567,7 @@
 
 .markdown-body ul,
 .markdown-body ol {
-  padding-left: 2em;
+  padding-left: 1em;
 }
 
 .markdown-body ul ul,
@@ -657,8 +651,8 @@
 .markdown-body code {
   padding: 3px 5px;
   margin: 0 2px;
-  font-size: 92%;
-  font-weight: 600;
+  font-size: 88%;
+  font-weight: 500;
   border-radius: 3px;
   background-color: var(--bg-text-md-code);
   color: var(--color-text-md-code);
@@ -681,6 +675,7 @@
 
 .markdown-body .highlight {
   margin-bottom: 16px;
+  font-color: 
 }
 
 .markdown-body .highlight pre {
