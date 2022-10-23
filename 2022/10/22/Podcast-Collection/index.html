@@ -11,7 +11,7 @@
   
   <title>
     
-      Archives 
+      清单 · 自存播客列表 
       
       
       |
@@ -101,102 +101,141 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2022</span>
-          </h2>
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">清单 · 自存播客列表</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="Update time"></i>
+          2022-10-22 20:22:16
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="Tags"></i>
+                
+                <span class="span--tag">
+                  <a href="/tags/Podcast/" title="Podcast">
+                    <b>#</b> Podcast
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <h2 id="如果只能推荐一个"><a href="#如果只能推荐一个" class="headerlink" title="如果只能推荐一个"></a>如果只能推荐一个</h2><ul>
+<li>过刊：主播是左小姐和葛小姐，每期会反复听。</li>
+</ul>
+<h2 id="每期都听-会主动找往期听"><a href="#每期都听-会主动找往期听" class="headerlink" title="每期都听/会主动找往期听"></a>每期都听/会主动找往期听</h2><ul>
+<li>回听：左小姐和葛小姐的音乐节目。第一季已完结。</li>
+<li>昨日之海：文学系毕业生每期讨论一部小说，很真挚。</li>
+<li>痴人之爱：一些文学作品里的浪漫爱情。期数多了之后有一点模式化。</li>
+<li>不在场：音乐相关，很多内容，很流畅。精力好的时候会去听。</li>
+<li>车间访谈：「希望在这个时候，能给你一些快乐。」已完结。</li>
+</ul>
+<h2 id="根据主题选择是否听"><a href="#根据主题选择是否听" class="headerlink" title="根据主题选择是否听"></a>根据主题选择是否听</h2><ul>
+<li>故事FM：制作很好。更新很频繁，不是每期都感兴趣。</li>
+<li>疲惫娇娃：小声喧哗。</li>
+<li>不合时宜：学术视角的媒体人。</li>
+<li>展开讲讲：影视作品和小说。</li>
+<li>没理想编辑部：几位女主播表达流畅，节奏很舒服。</li>
+<li>GQ Talk：很流畅，内容不错。会跳过有嘉宾的。</li>
+<li>Steve说：一些关于自我的分析是有道理的。男主播稍微有点showoff（一些学生会主席……）可以忍受。</li>
+<li>贝望录：一些我仅在作为旁观者时才会感兴趣的商业观察。</li>
+<li>瓜儿与少年：娱乐圈爆料。没什么意义，单纯满足八卦心理。</li>
+<li>元音不发音：b站安利0713的up主，意外发现表达很流畅。</li>
+</ul>
+<h2 id="偶尔会听"><a href="#偶尔会听" class="headerlink" title="偶尔会听"></a>偶尔会听</h2><ul>
+<li>限时肤浅：聊日常生活，普通人视角。</li>
+<li>惊奇电台：科幻作品。</li>
+</ul>
+<h2 id="听过1-2期，不喜欢"><a href="#听过1-2期，不喜欢" class="headerlink" title="听过1-2期，不喜欢"></a>听过1-2期，不喜欢</h2><ul>
+<li>来都来了：讲金庸讲得很浅。</li>
+<li>剧谈：没办法北京腔太容易有爹味了。</li>
+<li>Nice Try：漫无目的的聊天。</li>
+</ul>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2022/10/15/Reading-Lolita-in-Tehran/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="Update time"></i>
+              2022-10-22 20:22:16
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="Tags"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/Podcast/" title="Podcast">
+                        <b>#</b> Podcast
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="清单 · 自存播客列表">
-        <div class="time-m-d">10-22</div>
-        <div class="title">
-          <a href="/2022/10/22/Podcast-Collection/">
-            <span>清单 · 自存播客列表</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="书摘 · Reading Lolita in Tehran | 在德黑兰读《洛丽塔》">
-        <div class="time-m-d">10-15</div>
-        <div class="title">
-          <a href="/2022/10/15/Reading-Lolita-in-Tehran/">
-            <span>书摘 · Reading Lolita in Tehran | 在德黑兰读《洛丽塔》</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="书摘 · Self-Esteem | 自尊">
-        <div class="time-m-d">10-14</div>
-        <div class="title">
-          <a href="/2022/10/14/Self-Esteem/">
-            <span>书摘 · Self-Esteem | 自尊</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="书摘 · The Testments | 证言">
-        <div class="time-m-d">10-03</div>
-        <div class="title">
-          <a href="/2022/10/03/The-Testaments/">
-            <span>书摘 · The Testments | 证言</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="歌词 · 海上花 | Flowers of Shanghai">
-        <div class="time-m-d">08-25</div>
-        <div class="title">
-          <a href="/2022/08/25/Flowers-of-Shanghai/">
-            <span>歌词 · 海上花 | Flowers of Shanghai</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="日记 · 钢琴课">
-        <div class="time-m-d">08-08</div>
-        <div class="title">
-          <a href="/2022/08/08/Piano-Lesson/">
-            <span>日记 · 钢琴课</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="碎片 · 独居">
-        <div class="time-m-d">08-07</div>
-        <div class="title">
-          <a href="/2022/08/07/Living-Alone/">
-            <span>碎片 · 独居</span>
-          </a>
-        </div>
-      </div>
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2021</span>
-          </h2>
-        </div>
-      
-      <div class="post-item" title="技术 · Settle Down in Hexo">
-        <div class="time-m-d">12-28</div>
-        <div class="title">
-          <a href="/2021/12/28/Settle-Down-in-Hexo/">
-            <span>技术 · Settle Down in Hexo</span>
-          </a>
-        </div>
-      </div>
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E6%9E%9C%E5%8F%AA%E8%83%BD%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA"><span class="toc-text">如果只能推荐一个</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AF%8F%E6%9C%9F%E9%83%BD%E5%90%AC-%E4%BC%9A%E4%B8%BB%E5%8A%A8%E6%89%BE%E5%BE%80%E6%9C%9F%E5%90%AC"><span class="toc-text">每期都听&#x2F;会主动找往期听</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%B9%E6%8D%AE%E4%B8%BB%E9%A2%98%E9%80%89%E6%8B%A9%E6%98%AF%E5%90%A6%E5%90%AC"><span class="toc-text">根据主题选择是否听</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%81%B6%E5%B0%94%E4%BC%9A%E5%90%AC"><span class="toc-text">偶尔会听</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%AC%E8%BF%871-2%E6%9C%9F%EF%BC%8C%E4%B8%8D%E5%96%9C%E6%AC%A2"><span class="toc-text">听过1-2期，不喜欢</span></a></li></ol>
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
     
   </div>
-</div>
+
 
         <div class="footer">
   <div class="social">
@@ -483,6 +522,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E6%B8%85%E5%8D%95%20%C2%B7%20%E8%87%AA%E5%AD%98%E6%92%AD%E5%AE%A2%E5%88%97%E8%A1%A8 + '&url=' + http%3A%2F%2Fstan7s.github.io%2F2022%2F10%2F22%2FPodcast-Collection%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://stan7s.github.io/2022/10/22/Podcast-Collection/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>

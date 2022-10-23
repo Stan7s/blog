@@ -11,7 +11,7 @@
   
   <title>
     
-      Archives 
+      碎片 · 独居 
       
       
       |
@@ -101,102 +101,104 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2022</span>
-          </h2>
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">碎片 · 独居</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="Update time"></i>
+          2022-08-07 12:50:07
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="Tags"></i>
+                
+                <span class="span--tag">
+                  <a href="/tags/Podcast/" title="Podcast">
+                    <b>#</b> Podcast
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <p>听了一期电台：<a target="_blank" rel="noopener" href="https://www.listennotes.com/podcasts/%E6%B2%A1%E7%90%86%E6%83%B3%E7%BC%96%E8%BE%91%E9%83%A8/vol63-%E7%8B%AC%E5%B1%85%E7%9A%84%E4%BA%BA%E9%83%BD%E6%98%AF%E4%BB%80%E4%B9%88%E4%BA%BA%E4%B8%AD%E9%BE%99%E5%87%A4%E5%95%8A-mLyaDoV-7Rq/">Vol.63 独居的人，都是什么人中龙凤啊？！</a> </p>
+<p>这期节目里面两位嘉宾坚定地选择独居，理由是从小就喜欢一个人安排自己的生活；另外两位坚定群居，说自己一个人会感到害怕和孤独。她们讨论的内容也都非常真实，比如一个人做饭的话，青菜会坏得很快，在每周的末尾丢掉又会心痛；比如买菜时必须选择能够搭在一起的食材才能保证它们都能被及时解决。「独居后才知道，自己想吃的东西、自己每天想吃的东西、自己能做的东西、自己每天能做的东西是四个完全不同的东西。」</p>
+<p>最近独居对我而言似乎成为一种「政治正确」。我总在暗示自己，感到孤独是不成熟的、错误的表现，你要处理好这些负面感觉，要学会填满自己的生活。</p>
+<p>听完这一期心里轻松了很多，因为意识到，我完全没有必要不承认自己不喜欢一个人住。我就是需要室友和伙伴，需要相对稳定和不设防的关系，我不介意自己一个人的时候有朋友闯入家门，也希望拥有同样不会因为我的闯入而被打扰的朋友。喜欢群居和依赖关系并不会让我成为一个不那么酷的人。</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2021/12/28/Settle-Down-in-Hexo/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="Update time"></i>
+              2022-08-07 12:50:07
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="Tags"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/Podcast/" title="Podcast">
+                        <b>#</b> Podcast
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+              <a href="/2022/08/08/Piano-Lesson/" target="_self">
+                <span>Next</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
+            
+          </div>
         </div>
       
-      <div class="post-item" title="清单 · 自存播客列表">
-        <div class="time-m-d">10-22</div>
-        <div class="title">
-          <a href="/2022/10/22/Podcast-Collection/">
-            <span>清单 · 自存播客列表</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="书摘 · Reading Lolita in Tehran | 在德黑兰读《洛丽塔》">
-        <div class="time-m-d">10-15</div>
-        <div class="title">
-          <a href="/2022/10/15/Reading-Lolita-in-Tehran/">
-            <span>书摘 · Reading Lolita in Tehran | 在德黑兰读《洛丽塔》</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="书摘 · Self-Esteem | 自尊">
-        <div class="time-m-d">10-14</div>
-        <div class="title">
-          <a href="/2022/10/14/Self-Esteem/">
-            <span>书摘 · Self-Esteem | 自尊</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="书摘 · The Testments | 证言">
-        <div class="time-m-d">10-03</div>
-        <div class="title">
-          <a href="/2022/10/03/The-Testaments/">
-            <span>书摘 · The Testments | 证言</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="歌词 · 海上花 | Flowers of Shanghai">
-        <div class="time-m-d">08-25</div>
-        <div class="title">
-          <a href="/2022/08/25/Flowers-of-Shanghai/">
-            <span>歌词 · 海上花 | Flowers of Shanghai</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="日记 · 钢琴课">
-        <div class="time-m-d">08-08</div>
-        <div class="title">
-          <a href="/2022/08/08/Piano-Lesson/">
-            <span>日记 · 钢琴课</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="碎片 · 独居">
-        <div class="time-m-d">08-07</div>
-        <div class="title">
-          <a href="/2022/08/07/Living-Alone/">
-            <span>碎片 · 独居</span>
-          </a>
-        </div>
-      </div>
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2021</span>
-          </h2>
-        </div>
-      
-      <div class="post-item" title="技术 · Settle Down in Hexo">
-        <div class="time-m-d">12-28</div>
-        <div class="title">
-          <a href="/2021/12/28/Settle-Down-in-Hexo/">
-            <span>技术 · Settle Down in Hexo</span>
-          </a>
-        </div>
-      </div>
+
     
   </div>
-</div>
+
 
         <div class="footer">
   <div class="social">
@@ -483,6 +485,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E7%A2%8E%E7%89%87%20%C2%B7%20%E7%8B%AC%E5%B1%85 + '&url=' + http%3A%2F%2Fstan7s.github.io%2F2022%2F08%2F07%2FLiving-Alone%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://stan7s.github.io/2022/08/07/Living-Alone/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
