@@ -5,8 +5,8 @@
     
     <entry>
       <title>清单 · 今天看什么</title>
-      <link href="/2022/10/27/Videos/"/>
-      <url>/2022/10/27/Videos/</url>
+      <link href="/blog/2022/10/27/Videos/"/>
+      <url>/blog/2022/10/27/Videos/</url>
       
         <content type="html"><![CDATA[<h2 id="Oct-25-Nov-1-2022"><a href="#Oct-25-Nov-1-2022" class="headerlink" title="Oct 25 - Nov 1, 2022"></a>Oct 25 - Nov 1, 2022</h2><p><a href="https://www.bilibili.com/video/BV1wd4y1T73v/">「直角引号」是用来装X的吗？</a> 我们常用的直引号<code>&quot;</code>叫做”dummy quote”，是一种简化版的引号。真正的英文引号左右应该是不同的，所谓“英文引号不分方向”只是电脑键盘设计引起的一个迷思。之所以方向不像中文引号那么明显，是因为英文引号是半角字符，看起来区别会弱一些。</p><p>这也解释了一个困扰我很久的问题：用<code>shift+&#39;</code>输入双引号，出现的引号方向是左右交替的。在一些带自动补全的editor里，输入左引号会出现一对引号，但第二次打出来的又是右引号，于是只能打一个删一个。导致这个问题的根本原因是<code>shift+&#39;</code>对应的是直引号而非带方向的引号。之后系统自动修正时并不知道用户需要的是哪一个方向的，只能假设用户正在顺序输入文本，然后通过左右交替的顺序补全。</p><p>好消息是这个问题在MacOS里已经被解决了，单独输入某个方向的引号可以使用以下快捷键：</p><ul><li><code>option+[</code>: 左双引号</li><li><code>option+shift+[</code>: 右双引号</li><li><code>option+]</code>: 左单引号</li><li><code>option+shift+]</code>: 右但引号</li></ul><p>直角引号：可能很多人是从日文里引入的。</p><p>为什么有时候突然会有一行字间距很大：因为根据utf-8标准，很多语言（不包括中文）的引号是不能出现在行首或者行尾的，这就进一步限制了换行的位置。而中文文档里有时候也会出现这种情况是因为，即使我们输入的内容是中文的，文档的encoding仍然有可能是默认的英文，于是编辑器认为该文档中的引号不能排在行首。</p><p><a href="https://www.bilibili.com/video/BV1uK411D7TT/">把宋体放大100倍会看到什么？</a> 解释了中文字体设计上的一些问题，比如宋体之所以适合做正文字体，是因为细节较少，可以做到「像空气一样存在」；标题字体则需要通过较大的字重或者夸张的细节来吸引注意。看到这里进一步想到，我一直以为Word里「宋体（标题）」和「宋体（正文）」是完全相同的，其实应该不是。有时间可以去比较一下。</p><p>还介绍了设计复古字体的几种方式，比如从古书里直接扫描（保留缺损痕迹）、扫描+修复（填补缺损痕迹）、摘录几十个获取灵感剩下的自己设计（aka few-shot learning）等等。</p><p><a href="https://www.youtube.com/watch?v=ROpNi-feQx4">《密室大逃脱4》0713体验版</a>：仍然很好笑。（芒果的付费节目在Youtube官方频道竟然不收费……）</p><p><a href="https://movie.douban.com/subject/1301509/">《修女也疯狂》</a></p>]]></content>
       
@@ -26,8 +26,8 @@
     
     <entry>
       <title>碎片 · 为了被看的生活</title>
-      <link href="/2022/10/25/Live-to-Peform/"/>
-      <url>/2022/10/25/Live-to-Peform/</url>
+      <link href="/blog/2022/10/25/Live-to-Peform/"/>
+      <url>/blog/2022/10/25/Live-to-Peform/</url>
       
         <content type="html"><![CDATA[<blockquote><p><a href="https://alive.bar/@miiiiii/109229568379006986">@谜</a>: “不过之前的生活里经常有种不是真的在做什么，而是在照猫画虎的感觉。好像从小到大就没被培养起一种，做什么就实实在在做什么，把它实实在在从里到外每个细节都做明白，的精神。总是，有个样子，面上好看，就行了，就可以了。过一种为了被看的生活。学校的应试教育是这样，不管知识懂没懂，题怎么做能拿更多的分数才是重要的。完全不会做写个解得1分，弄明白怎么做不是重要的，得了那1分能及格才是重要的。家里也是，没想过以后这个孩子要做什么、成为什么，想的是，做什么不重要，工作看上去稳定“旱涝保收”、能跟一个看上去还行的人在28岁结婚30岁生孩子才是重要的。工作后更是，对于年轻女的，唯一的要求是做一个看上去乖顺讨巧的年轻女的。没人真的在意我的能力和知识。自我从不太扎实，于是太容易就被这些外在的因素带跑了。从小到大一直能靠表面功夫糊弄着过关，真正重要的东西，把事真正做成做好做完整的功夫本事，别人不来要求我，我也以为就不重要。</p><p>“真的是到了读了博士，被要求着每件事、每个细节、每个字词都要过关、要清楚，我才真的知道要做出东西来，太多事情是糊弄不过去的，是非得一点一滴地琢磨的，是需要走一步退半步地反复和坚持的。“</p></blockquote><p>其实我一直是这样。我的人生缺少大块的、坚实的、清楚的部分。这或许也是为什么我总不相信自己在做的事情。真实的努力和表面工夫真真假假地编织在一起，一张给人看的网。</p><p>Only the fragments are real.</p><p>幸运的是仍然有一些机会，比如读PhD，比如建设digital garden，比如写Beginner’s Guide和整理code repository。我试图把最核心的事情做得solid enough，so that at the end of the day，我至少能抓住一些什么。</p>]]></content>
       
@@ -47,8 +47,8 @@
     
     <entry>
       <title>工具 · Write Papers in LaTeX with VSCode and Zotero</title>
-      <link href="/2022/10/23/Write-Latex-in-VSCode/"/>
-      <url>/2022/10/23/Write-Latex-in-VSCode/</url>
+      <link href="/blog/2022/10/23/Write-Latex-in-VSCode/"/>
+      <url>/blog/2022/10/23/Write-Latex-in-VSCode/</url>
       
         <content type="html"><![CDATA[<p>I’ve always wanted to find a way to write papers in an elegent way, including editing LaTeX and adding citations. Here is how.</p><h2 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h2><ul><li>VSCode Plugins: <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">LaTeX Workshop</a>, <a href="https://marketplace.visualstudio.com/items?itemName=bnavetta.zoterolatex">Zotero LaTeX</a></li><li>Zotero Plugins: <a href="https://retorque.re/zotero-better-bibtex/">Better BibTeX for Zotero</a></li></ul><h2 id="Workflow"><a href="#Workflow" class="headerlink" title="Workflow"></a>Workflow</h2><h3 id="Write-LaTeX"><a href="#Write-LaTeX" class="headerlink" title="Write LaTeX"></a>Write LaTeX</h3><ol><li>Open a <code>.tex</code> file in VSCode.</li><li>Click the TeX icon at the left menubar, compile file and open PDF preview.</li><li>Write LaTeX in the <code>.tex</code> file. The PDF will automatically refresh if auto compilation has been configured.</li></ol><h3 id="Insert-Citation"><a href="#Insert-Citation" class="headerlink" title="Insert Citation"></a>Insert Citation</h3><ol><li>In Zotero, right click the folder containing papers you would like to cite in your paper and select <code>Export Collection</code>. Select “Better BibLaTeX” as the format. Check the option “Keep Updated” to keep the exported <code>.bib</code> file updated when you make changes to this Zotero collection. Save the <code>.bib</code> file under the same directory of your paper.</li><li>In VSCode, add <code>\bibliography&#123;EXPORTED_BIB_FILENAME&#125;</code> to the <code>.tex</code> file.</li><li>To insert a citation, press <code>Option+M</code> (<code>Alt+M</code> for Windows) to toggle Zotero citation selector. Search for the paper and click <code>Enter</code> to insert its citekey.</li></ol><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul><li>Some LaTeX templates might require different bibliography keys. For example, <a href="https://github.com/acl-org/acl-style-files">the ACL rolling review Template</a> requires the keys “year” and “journal” instead of “date” and “journalname”. To match its style, select “Better BibTeX” as the format instead of “Better BibLaTeX” when exporting the <code>.bib</code> file from Zotero.</li></ul>]]></content>
       
@@ -70,8 +70,8 @@
     
     <entry>
       <title>播客 · 性向流动的那一瞬</title>
-      <link href="/2022/10/23/Fluid/"/>
-      <url>/2022/10/23/Fluid/</url>
+      <link href="/blog/2022/10/23/Fluid/"/>
+      <url>/blog/2022/10/23/Fluid/</url>
       
         <content type="html"><![CDATA[<p><a href="https://www.listennotes.com/podcasts/%E4%B8%8B%E9%A9%AC%E5%A8%81tuneduphigh/e009%E5%81%9A%E4%BA%8620%E5%B9%B4%E9%A1%BA%E7%9B%B4%E5%A5%B3%E6%80%A7%E5%90%91%E6%B5%81%E5%8A%A8%E7%9A%84%E9%82%A3%E4%B8%80%E7%9E%AC%E6%92%AC%E5%8A%A8%E4%BA%86%E5%9C%B0%E7%90%83-nqKxbWR76ig/">E009.做了20年顺直女，性向流动的那一瞬撬动了地球 - 下马威TunedUpHigh</a></p><p>两位主播因为权志龙和于文文而产生的新的情感体验。原来泥塑是「逆向塑造」的缩写！</p><hr><p>节目的最后几分钟，主播之一讲述她和一位同性朋友之间的不曾被定义的关系：</p><p>“我第一次理解了什么是女性友谊。但如果要超脱出女性友谊的话，就是一种脱离性别的、回归到人与人之间的很本能的、美妙的、自由的、开放的情感当中去（的关系）。”</p><p>“在不断理解情感的过程中，我感觉自己被拓宽了。我变得更加广阔，我的人生变得更有可能性。同时我觉得我真的在被接纳。我好幸运可以拥有这样的感情。那天我躺在床上想这件事情，我默默地流了一条很细的眼泪。”</p><p>她给朋友发消息：“其实我很多时刻都对你有欲望。我总觉得你点燃了我的边界，燃烧掉了我那部分既定的情感框架和既有的认知模式。留下的是滚滚的欲望，在我人生的各种各样的边缘徘徊。”</p><p>“你让我变得更爱自己了。”</p>]]></content>
       
@@ -89,8 +89,8 @@
     
     <entry>
       <title>清单 · 自存播客列表</title>
-      <link href="/2022/10/22/Podcast-Collection/"/>
-      <url>/2022/10/22/Podcast-Collection/</url>
+      <link href="/blog/2022/10/22/Podcast-Collection/"/>
+      <url>/blog/2022/10/22/Podcast-Collection/</url>
       
         <content type="html"><![CDATA[<h2 id="如果只能推荐一个"><a href="#如果只能推荐一个" class="headerlink" title="如果只能推荐一个"></a>如果只能推荐一个</h2><ul><li>过刊：主播是左小姐和葛小姐，每期会反复听。</li></ul><h2 id="每期都听-会主动找往期听"><a href="#每期都听-会主动找往期听" class="headerlink" title="每期都听/会主动找往期听"></a>每期都听/会主动找往期听</h2><ul><li>回听：左小姐和葛小姐的音乐节目。第一季已完结。</li><li>昨日之海：文学系毕业生每期讨论一部小说，很真挚。</li><li>车间访谈：「希望在这个时候，能给你一些快乐。」已完结。</li><li>下马威TunedUpHigh：听了半期就决定加入「非常喜欢」列表。</li></ul><h2 id="根据主题选择是否听"><a href="#根据主题选择是否听" class="headerlink" title="根据主题选择是否听"></a>根据主题选择是否听</h2><ul><li>故事FM：制作很好。更新很频繁，不是每期都感兴趣。</li><li>疲惫娇娃：小声喧哗。</li><li>痴人之爱：一些文学作品里的浪漫爱情。期数多了之后有一点模式化。</li><li>不合时宜：学术视角的媒体人。</li><li>展开讲讲：影视作品和小说。</li><li>没理想编辑部：几位女主播表达流畅，节奏很舒服。</li><li>GQ Talk：很流畅，内容不错。会跳过有嘉宾的。</li><li>不在场：音乐相关，很多内容，很流畅。精力好的时候会去听。</li><li>Steve说：一些关于自我的分析是有道理的。男主播稍微有点showoff（一些学生会主席……）可以忍受。</li><li>贝望录：一些我仅在作为旁观者时才会感兴趣的商业观察。</li><li>瓜儿与少年：娱乐圈爆料。没什么意义，单纯满足八卦心理。</li><li>元音不发音：b站安利0713的up主，意外发现表达很流畅（我真的太在意这点了）。</li><li>不可理论：很solid。有些期听不太懂。</li></ul><h2 id="偶尔会听"><a href="#偶尔会听" class="headerlink" title="偶尔会听"></a>偶尔会听</h2><ul><li>限时肤浅：聊日常生活，普通人视角。</li><li>惊奇电台：科幻作品。</li></ul><h2 id="听过1-2期，不喜欢"><a href="#听过1-2期，不喜欢" class="headerlink" title="听过1-2期，不喜欢"></a>听过1-2期，不喜欢</h2><ul><li>来都来了：讲金庸讲得很浅。</li><li>剧谈：没办法北京腔太容易有爹味了。</li><li>Nice Try：漫无目的的聊天。</li></ul>]]></content>
       
@@ -110,8 +110,8 @@
     
     <entry>
       <title>书摘 · Reading Lolita in Tehran | 在德黑兰读《洛丽塔》</title>
-      <link href="/2022/10/15/Reading-Lolita-in-Tehran/"/>
-      <url>/2022/10/15/Reading-Lolita-in-Tehran/</url>
+      <link href="/blog/2022/10/15/Reading-Lolita-in-Tehran/"/>
+      <url>/blog/2022/10/15/Reading-Lolita-in-Tehran/</url>
       
         <content type="html"><![CDATA[<p><a href="https://book.douban.com/subject/26427256/">在德黑兰读《洛丽塔》 (豆瓣)</a></p><p>本科时在图书馆借过的一本书。</p><h2 id="11"><a href="#11" class="headerlink" title="11"></a>11</h2><p>“在讨论作品的过程中，她们才会放开自己，放纵情绪。小说是逃避现实的管道，我们可以赞叹它的美丽与极致，暂时抛开自己身边有关训导主任、大学与街头道德纠察队的烦忧。我们以若干纯真的心情阅读这些书，完全脱离自己的背景与期许，就像爱丽丝不顾一切追逐白兔，跳入洞中。这份纯真产生了正面的效果，少了它，我们恐怕无法了解自己有多么不善于表达意见。不可思议的是，我们所遁入的小说世界，最终却引导我们质疑挑战我们所处的现实，这是我们一直以来无力说出口的。”</p><p>“就某方面而言，对于美的渴求，与“事物的扭曲形态”抗争的本能冲动（套用纳博科夫最后一本小说《注视丑角！》［Look at the Harlequins! ］的叙述者瓦丁姆的话），将抱持各种不同意识形态的许多人，聚集至我们所通称的文化。这是意识形态使不上力的领域。</p><p>“我宁愿相信这份热情代表某种意义，代表德黑兰正弥漫着一股虽非春风但也算和风的气息，而春天的脚步应不远了。我紧抓着一阵持续但克制住的微弱兴奋不放，这令我忆起在德黑兰读《洛丽塔》的感觉。我仍可从昔日学生的书信里感受到它，尽管缺乏工作或安全感的未来和脆弱虚伪的现在令他们彷徨焦虑，他们在信中依然念念不忘对于美的追求。”</p><h2 id="18"><a href="#18" class="headerlink" title="18"></a>18</h2><p>“下课前，从休庭后就一直保持沉默的莎琳，突然站起来。尽管说话的声音很低，她却显得相当激动。她说有时她会纳闷，有些人何必说自己主修文学。‘有意义吗？’她怀疑。至于这本书，她没什么要再替它补充的了，小说本身就是它自己最好的辩护。或许我们可以从它、从菲茨杰拉德先生那儿学到一些事。她没有从中学到通奸是件好事，或大家都该成为奸诈之徒。‘难道看过斯坦贝克的小说后，所有人都要去示威或移民西部？看过梅尔维尔，大家都去捕鲸？我们人难道不比这更复杂些吗？革命人就没有人的情感和情绪吗？他们从不谈恋爱或欣赏美的事物吗？’她平静地说，‘这是本令人惊奇的书，教读者珍惜梦想但也要当心梦想，并且要在不寻常的地方寻找真诚。’总之，阅读它带给她极大的快乐。‘这也是很重要的，大家不觉得吗？’</p><p>“她这句‘大家不觉得吗？’透出真诚的关怀，超越她对尼亚纪先生的鄙视与痛恨，这份渴望即使他也应该看得出来，绝对看得出来。她沉默片刻，环顾教室里的所有同学，全班随即安静了好一会儿，即使尼亚纪先生也没话好说。</p><p>“那天上完课后，我觉得心情很好。下课钟响时，有许多人根本没注意到。尽管没有正式的表决，但大多数学生所显现的兴奋情绪，对我而言是最好的判决。我离开教室时他们全都在争论——争论的议题不是人质、最近拉贾维的示威活动或宗教领袖，而是盖茨比和他变了调的梦。”</p><h2 id="21"><a href="#21" class="headerlink" title="21"></a>21</h2><p>“‘我坐在那儿，沉湎于那个古老的未知世界，突然想到盖茨比第一次发现黛西码头终点的绿灯时，心中必定也有同样的惊奇。他历经千辛万苦才来到这片青草地上，他的梦想就近在眼前，似乎伸手可及。他却不知道他的梦想早已落于身后，落在比纽约市更远的某个默默无闻的地方，落在夜色中一望无际、漆黑幽暗的美国田野中。’”</p><p>“他尽可以过得不诚实，尽可以捏造身份，但有件事他做不出来，就是背叛自己的想象。‘对自己想象的诚实’到头来背叛了他。他死了，因为在现实里这样的人活不下去。”我接着说。</p><h2 id="22"><a href="#22" class="headerlink" title="22"></a>22</h2><p>“那天我觉得自己即将失去某种东西，不由得哀悼起尚未发生的死亡，仿佛我私人的一切都被粉碎了，就像小野花必须让路给更华丽的花卉，让一切井然有序。我在美国念书时，不曾有过这种失落感，在那些年头，即使思乡情切，我仍十分有把握家是我的，只要愿意随时都可以回去。直到重返故乡，我才领会到流亡的真谛。当我走过那些我所深爱、怀念的街道时，我觉得仿佛正在踩碎躺在脚下的回忆。”</p>]]></content>
       
@@ -131,8 +131,8 @@
     
     <entry>
       <title>书摘 · Self-Esteem | 自尊</title>
-      <link href="/2022/10/14/Self-Esteem/"/>
-      <url>/2022/10/14/Self-Esteem/</url>
+      <link href="/blog/2022/10/14/Self-Esteem/"/>
+      <url>/blog/2022/10/14/Self-Esteem/</url>
       
         <content type="html"><![CDATA[<p><a href="https://book.douban.com/subject/30408726/">自尊（原书第4版） (豆瓣)</a></p><h2 id="自我批评"><a href="#自我批评" class="headerlink" title="自我批评"></a>自我批评</h2><p>（文中“批评者”指代的是内心的批评声音。）</p><p>“你的批评者通过负强化满足你抑制悲痛的需求。当批评者帮助你缓解或是完全抑制悲伤情绪时，他的声音就得到了高度强化。虽然从长远来看，这种效果会打击你的自尊心，但责骂性的自言自语能够在短期内起到镇痛的效果。”</p><p>“批评者自告奋勇地实施惩罚，帮你对付负罪感。既然你已经做错了，批评者会让你承担后果。在他反反复复骂你自私、贪婪或麻木的同时，你的罪恶仿佛被赎清，甚至被消解，好像没有犯过错一样。当你坐在批评者的放映室里，一遍又一遍地观看你出现过失的镜头，负罪感就会烟消云散。因为对你的自我价值施暴能够帮助你暂时免受罪恶感的折磨。”</p><h2 id="消灭内心的批评声音"><a href="#消灭内心的批评声音" class="headerlink" title="消灭内心的批评声音"></a>消灭内心的批评声音</h2><p>“当批评者无话可说时，你必须用积极的自我价值意识取代他的声音。</p><p>“肯定你的价值并非易事。此时此刻你认为自己的价值取决于行为。打个比方，你把自己当成一个需要用一点一滴的成就填满的空罐子。刚开始时几乎一文不值，只是一个会移动和说话的躯壳。批评者已经令你坚信生命没有内在价值，只有做大事的潜力。</p><p>”事实上你的价值就是你的意识、你感知和经历的能力。人类生命的价值在于它存在的事实，你是造物主创造出的精密复杂的奇迹。你是一个为生存而努力的人，这足以让你与其他同样为生存而努力的人价值相当，无关乎成就。你做的任何一件事、任何一份贡献都不应该以证明自我价值为目标，而是源源不断的生命力的体现。你应该为了充实生活努力，而非拼命证实自己。</p><p>“无论你是一个正在攻克癌症的研究者抑或是扫马路的清洁工，你都已经知道希望和恐惧、依恋和失去、需要和失望，你都已经远眺过世界并竭力将它看明白，你都已经处理过一系列自身特有的问题，并且承受过痛苦。在过去的几年里，为了能够缓解疼痛，你已经尝试过很多策略。一些已经奏效，一些却没有。一些只能在短期内奏效，从长远来看，却让你变得更加忧伤。这都无关紧要，重要的是你努力活着。尽管生活的道路布满荆棘，你仍不懈尝试。这就是你的价值、你的人性。”</p>]]></content>
       
@@ -142,9 +142,9 @@
             
             <tag> Book </tag>
             
-            <tag> Mental Health </tag>
-            
             <tag> Read </tag>
+            
+            <tag> Mental Health </tag>
             
         </tags>
       
@@ -154,8 +154,8 @@
     
     <entry>
       <title>书摘 · The Testments | 证言</title>
-      <link href="/2022/10/03/The-Testaments/"/>
-      <url>/2022/10/03/The-Testaments/</url>
+      <link href="/blog/2022/10/03/The-Testaments/"/>
+      <url>/blog/2022/10/03/The-Testaments/</url>
       
         <content type="html"><![CDATA[<p><a href="https://www.goodreads.com/book/show/42975172-the-testaments">The Testaments (The Handmaid’s Tale, #2) by Margaret Atwood | Goodreads</a></p><p><a href="https://book.douban.com/subject/35081845/">证言 (豆瓣)</a></p><blockquote><p>A book that has inspired me on many nights.</p></blockquote><h2 id="阿杜瓦堂手记-·-71"><a href="#阿杜瓦堂手记-·-71" class="headerlink" title="阿杜瓦堂手记 · 71"></a>阿杜瓦堂手记 · 71</h2><p>“Our time together is drawing short, my reader. Possibly you will view these pages of mine as a fragile treasure box, to be opened with the utmost care. Possibly you will tear them apart, or burn them: that often happens to words.</p><p>“Perhaps you’ll be a student of history, in which case I hope you’ll make something useful of me: a warts-and-all portrait, a definitive account of my life and times, suitably footnoted; though if you don’t accuse me of bad faith I will be astonished. Or, in fact, not astonished: I will be dead, and the dead are hard to astonish.</p><p>“I picture you as a young woman, bright, ambitious. You’ll be looking to make a niche for yourself in whatever dim, echoing caverns of academia may still exist by your time. I situate you at your desk, your hair tucked back behind your ears, your nail polish chipped—for nail polish will have returned, it always does. You’re frowning slightly, a habit that will increase as you age. I hover behind you, peering over your shoulder: your muse, your unseen inspiration, urging you on.</p><p>“You’ll labour over this manuscript of mine, reading and rereading, picking nits as you go, developing the fascinated but also bored hatred biographers so often come to feel for their subjects. How can I have behaved so badly, so cruelly, so stupidly? you will ask. You yourself would never have done such things! But you yourself will never have had to.”</p><p>“我的读者，我们在一起的时间眼看就要到头了。你可能会把我写的这些手稿看作是个一碰就碎的藏宝盒，要格外小心地打开。也可能，你会把它们撕碎，或是烧掉：文字常常会遭遇这种下场。</p><p>“也许，你会是个历史系学生，无论如何，我希望你会觉得我有点用：好比一幅巨细无靡的肖像，对我的人生、我所经历的年代的最可信的的记录，备有恰如其分的注脚；不过，假如你不指责我奸诈，我反而会震惊呢。其实也不会震惊，因为我将死去——你很难让死人震惊。</p><p>“我把你想象成一位年轻女性，聪明，有抱负。无论在哪个领域里——在你那个年代仍会存在的某个幽深但影响致远的学术领域——你都会为自己争取到一席之地。在我的想象中，你正坐在书桌旁，头发束在耳后，有一点指甲油蹭掉了——因为指甲油会重新出现的，永远都会。你微微蹙眉，这个习惯会随着你年纪增长而加剧。我盘桓在你身后，从你的肩膀上往下看：你的缪斯，看不见的灵感，正在催你奋进。</p><p>“我的这份手稿会让你很辛苦，读了一遍又一遍，一边看一边揪出小问题，时而着迷，时而倦怠，心头五味杂陈，犹如愤懑的传记作家时常对其书写的对象会有的感受。我怎么能做出那么恶劣的事呢，那么残忍，那么愚蠢？你会这样问。你自己决不会做出这种事的！但你本人将永不需要去做那些事。”</p><hr><p>“And so we come to my end. It’s late: too late for Gilead to prevent its coming destruction. I’m sorry I won’t live to see it—the conflagration, the downfall. And it’s late in my life. And it’s late at night: a cloudless night, as I observed while walking here. The full moon is out, casting her equivocal corpse-glow over all. Three Eyes saluted me as I passed them: in moonlight their faces were skulls, as mine must have been to them.</p><p>“They will come too late, the Eyes. My messengers have flown. When worst comes to worst—as it will very soon—I’ll make a quick exit. A needleful or two of morphine will do it. Best that way: if I allowed myself to live, I would disgorge too much truth. Torture is like dancing: I’m too old for it. Let the younger ones practise their bravery. Though they may not have a choice about that, since they lack my privileges.</p><p>“But now I must end our conversation. Goodbye, my reader. Try not to think too badly of me, or no more badly than I think of myself.</p><p>“In a moment I’ll slot these pages into Cardinal Newman and slide it back onto my shelf. In my end is my beginning, as someone once said. Who was that? Mary, Queen of Scots, if history does not lie. Her motto, with a phoenix rising from its ashes, embroidered on a wall hanging. Such excellent embroiderers, women are.</p><p>“The footsteps approach, one boot after another. Between one breath and the next the knock will come.”</p><p>“好了，我们走到我的终点了。太晚了：让基列阻止自己走向毁灭已然太迟。真遗憾，我不会活着看到那一天了——大火，崩塌。我的人生快到终点了。夜也深了：没有云彩的夜晚，我走到图书馆来的路上看过了。满月出来了，给万物投下意义不明的死光。三个眼目在我路过时向我敬礼：他们的脸孔在月光下俨如骷髅头，我的脸孔在他们眼里也一样。</p><p>“就算他们来了也太晚了，那些眼目。我的信鸽们飞走了。最糟的时刻来临时——那个时刻很快就会来了——我会迅速离去。一针、或两针吗啡就能办到。那是最好的办法：如果我允许自己活下去，就会吐露更多、太多的真相。酷刑就像舞蹈：我太老了，折腾不动了。让年轻人磨练自己的勇气吧。虽然她们未必有选择，因为她们没有我所有的特权。</p><p>“但现在我必须终结我们的谈话了。再见了，我的读者。尽量别把我想得太坏，或者，不要比我自认的更坏。</p><p>“过一会儿，我就会把这些手稿塞进红衣主教纽曼的砖头书，放回我的书架。就像前人所说的：我的终点就在我的起点。我死即我生。是谁说的？苏格兰的玛丽女王，如果历史没有说谎的话。她的名言，连同灰烬中浴火重生的凤凰，一起被绣在壁画上了。女人们，真的是绝佳的刺绣者。</p><p>“脚步声近了，靴子踩踏出一声又一声。在两次呼吸之间，门就会被敲响。</p>]]></content>
       
@@ -175,8 +175,8 @@
     
     <entry>
       <title>歌词 · 海上花 | Flowers of Shanghai</title>
-      <link href="/2022/08/25/Flowers-of-Shanghai/"/>
-      <url>/2022/08/25/Flowers-of-Shanghai/</url>
+      <link href="/blog/2022/08/25/Flowers-of-Shanghai/"/>
+      <url>/blog/2022/08/25/Flowers-of-Shanghai/</url>
       
         <content type="html"><![CDATA[<p><a href="https://www.youtube.com/watch?v=r8vGRaDLqxo">羅大佑live演唱 海上花 - YouTube</a></p><p>“是这般柔情的你<br>给我一个梦想<br>徜徉在起伏的波浪中盈盈的荡漾<br>在你的臂弯</p><p>“是这般深情的你<br>摇晃我的梦想<br>缠绵象海里每一个无名的浪花<br>在你的身上</p><p>“睡梦成真<br>转身浪影汹涌没红尘<br>残留水纹 空留遗恨<br>愿只愿他生<br>昨日的身影能相随<br>永生永世不离分</p><p>“是这般奇情的你<br>粉碎我的梦想<br>仿佛象水面泡沫的短暂光亮<br>是我的一生”</p><hr><p>最喜欢最后一段。“泡沫”于你我是短暂的光亮，于我是我的一生。</p>]]></content>
       
@@ -194,8 +194,8 @@
     
     <entry>
       <title>碎片 · 钢琴课</title>
-      <link href="/2022/08/08/Piano-Lesson/"/>
-      <url>/2022/08/08/Piano-Lesson/</url>
+      <link href="/blog/2022/08/08/Piano-Lesson/"/>
+      <url>/blog/2022/08/08/Piano-Lesson/</url>
       
         <content type="html"><![CDATA[<p>下午四点去上课。刚到的时候Prof A不在旁边，我随手弹了一遍曲子。弹罢听到背后一个声音说，beautiful.</p><p>课上到一半的时候，A看着我说：From my perspective, you enjoy what you are playing. And I’m glad to see that.</p><p>也学了一点乐理。她讲7th chord的时候我提了一个问题（怎么确定dominant key）。她看起来很高兴，说很多学生听完就说okay，并不会想为什么。我心想，that’s me 15 years ago.</p><p>这个课的各个方面都很迷糊，一会儿我忘记时间，一会儿A忘记。但还是想学下去，因为能从中找到某种完全不同于生活主题的平静。</p><p>而且我真的好爱古典乐器发出的声音。和弦被按下的时候，我的心会跟着颤抖。或许这是一种awe。</p>]]></content>
       
@@ -215,8 +215,8 @@
     
     <entry>
       <title>播客 · 独居</title>
-      <link href="/2022/08/07/Living-Alone/"/>
-      <url>/2022/08/07/Living-Alone/</url>
+      <link href="/blog/2022/08/07/Living-Alone/"/>
+      <url>/blog/2022/08/07/Living-Alone/</url>
       
         <content type="html"><![CDATA[<p>听了一期电台：<a href="https://www.listennotes.com/podcasts/%E6%B2%A1%E7%90%86%E6%83%B3%E7%BC%96%E8%BE%91%E9%83%A8/vol63-%E7%8B%AC%E5%B1%85%E7%9A%84%E4%BA%BA%E9%83%BD%E6%98%AF%E4%BB%80%E4%B9%88%E4%BA%BA%E4%B8%AD%E9%BE%99%E5%87%A4%E5%95%8A-mLyaDoV-7Rq/">Vol.63 独居的人，都是什么人中龙凤啊？！</a> </p><p>这期节目里面两位嘉宾坚定地选择独居，理由是从小就喜欢一个人安排自己的生活；另外两位坚定群居，说自己一个人会感到害怕和孤独。她们讨论的内容也都非常真实，比如一个人做饭的话，青菜会坏得很快，在每周的末尾丢掉又会心痛；比如买菜时必须选择能够搭在一起的食材才能保证它们都能被及时解决。「独居后才知道，自己想吃的东西、自己每天想吃的东西、自己能做的东西、自己每天能做的东西是四个完全不同的东西。」</p><p>最近独居对我而言似乎成为一种「政治正确」。我总在暗示自己，感到孤独是不成熟的、错误的表现，你要处理好这些负面感觉，要学会填满自己的生活。</p><p>听完这一期心里轻松了很多，因为意识到，我完全没有必要不承认自己不喜欢一个人住。我就是需要室友和伙伴，需要相对稳定和不设防的关系，我不介意自己一个人的时候有朋友闯入家门，也希望拥有同样不会因为我的闯入而被打扰的朋友。喜欢群居和依赖关系并不会让我成为一个不那么酷的人。</p>]]></content>
       
@@ -234,8 +234,8 @@
     
     <entry>
       <title>书摘 · La frantumaglia | 碎片</title>
-      <link href="/2022/02/25/La-frantumaglia/"/>
-      <url>/2022/02/25/La-frantumaglia/</url>
+      <link href="/blog/2022/02/25/La-frantumaglia/"/>
+      <url>/blog/2022/02/25/La-frantumaglia/</url>
       
         <content type="html"><![CDATA[<p><a href="https://book.douban.com/subject/34933701/">碎片 (豆瓣)</a></p><h2 id="I-碎片-1991-2003"><a href="#I-碎片-1991-2003" class="headerlink" title="I 碎片 (1991-2003)"></a>I 碎片 (1991-2003)</h2><h3 id="16-碎片"><a href="#16-碎片" class="headerlink" title="16 碎片"></a>16 碎片</h3><p>“假如你们愿意的话，我更愿意深入分析你们提出的另一个词——痛苦，这个词从我童年开始一直在陪伴着我，包括在我写这两本小说时。</p><p>“我母亲留给我一个方言词汇，那是她经常说的，就是当一个人遭受各种矛盾情感的折磨时感受到的东西，她说她内心一团“碎片”（frantumaglia）。这些碎片折磨着她，在她内心东拉西扯，让她头晕，嘴里发苦。这是一种很难说出口的苦，指的是脑子里有各种各样的东西搅和在一起，就像是漂浮在脑子上的残渣。“碎片”神秘，会让人做出一些莫名其妙的事情，它会引起那些难以名状的痛苦。当我母亲不再年轻，这些沉渣“碎片”会让她在夜里醒来，让她自说自话，又让她对此感到羞愧，会让她不由自主哼唱起一些小曲儿，但很快会变成一声叹息，也会让她忽然离开家，也不管灶火上的拌面酱烧糊在锅底上。有时候这些“碎片”会让她哭泣，这个童年起就留在我脑子里的词汇，通常指的是无缘无故的哭泣：“碎片”的眼泪。</p><p>“现在已经没法问我母亲，她说的那个词到底是什么意思。我只能按照自己的方式解释，我从小都觉得，内心的“碎片”会让人痛苦，从另一个方面来说，一个人如果很痛苦，迟早就会变得支离破碎。</p><p>“碎片到底是什么，我之前不知道，现在也不知道。现在我脑子里有一系列关于碎片的意象，但都是和我的问题相关，而不是她的问题。碎片是不稳定的风景，是一片空气，或者是水汽，都是废气，无限延伸开来，粗暴地向我展示它真正的、唯一的内在。碎片是时光的堆积，没有故事或小说中的秩序。碎片是失去带来的感觉，当我们觉得一切都很稳定持久，但是我们看到，我们生命得以依靠的东西，很快就和堆积的碎片融为一体。碎片就是感觉痛苦不安，这种不安缘于一些乱七八糟的事情，我们的生活，我们的声音会淹没在这堆碎片中。</p><p>“有时候，我会和奥尔加——《被遗弃的日子》里的女主人公——一样，也会面对她所面对的问题。有时候我会觉得脑子里嗡嗡作响，过去和现在搅和在一起，形成一个旋涡：像一窝蜂一样，飞过一动不动的树顶，向我飞来，就像在流水上忽然转动起来的风车。我小时候看到过那种情景，在我的童年时代——成人称之为童年的那段时光，我觉得，语言进入了我的内部，灌输给我一种新的言语：各种颜色的声音爆发出来，像成千上万的蝴蝶，长着能发出声音的翅膀。或者这只是我表达死亡，还有对死亡的恐惧和不安的方式，恐惧会让人忽然失去表达能力，就好像发声器官突然瘫痪。从生下来就学会的，我们可以控制的东西，现在都各自流散，我的身体就像一只皮袋子，会漏气、漏水。”</p><h2 id="III-书信-2011-2016"><a href="#III-书信-2011-2016" class="headerlink" title="III 书信 (2011-2016)"></a>III 书信 (2011-2016)</h2><h3 id="6-写作的女人"><a href="#6-写作的女人" class="headerlink" title="6 写作的女人"></a>6 写作的女人</h3><p>“桑德罗：你所说的记忆碎片指的是什么？</p><p>“费兰特：各种不同的材料，难以界定。你有没有这种体验？就是你脑子里有一些音符，一个调子，但你不知道它是什么，假如你哼唱出来的话，它可能会变成一首歌，和你想象的不一样。或者说，当你回忆起某个街角时，你不知道那是什么地方，要给这些零碎的记忆加一个标签的话，我会用我母亲喜欢用的一个词汇：碎片。我们头脑里的这些碎片或齑粉，你很难记得它们来自哪里，但它们在你脑子里会形成一些声音，有时候会让你难过。</p><p>“埃娃：这些碎片都可能变成小说吗？</p><p>“费兰特：有时候可能，有时候不行。这些碎片可以一个个分辨出来：童年生活的地方、家庭成员、学校的伙伴，一些温柔或气愤的话，还有一些非常紧张的时刻。把这些东西整理出来，你就可以开始讲述了。但总是有一些东西行不通，就好像这些碎片会各自为政，它们会形成一致或相反的力量：有的要清晰地出现在日光之下，有的试图隐藏在最深处。”</p><hr><p>“一个写作的女性，她唯一应该考虑的事情是把自己所了解的、体会的东西讲述出来，无论美丑，无论有没有矛盾，不用去遵照任何准则，甚至不用遵从同一个阵线的女性。写作需要极大的野心，需要摆脱各种偏见，也需要一种有计划的反抗。”</p><hr><p>“桑德拉：还有最后一个问题。莉拉的写作在小说中占据着重要的位置，从童年起深刻影响了埃莱娜。莉拉的写作有一些什么特点呢？</p><p>“费兰特：莉拉写的很少的几篇文字，这些文字是不是像埃莱娜说的那么有力，我们不会知道。我们所知道的是，这些文字最后成了埃莱娜学习的模板，也是她一辈子努力想达到的目标。关于这种理想写作的特点，埃莱娜对我们有所流露，但那不重要。最重要的是，没有莉拉，埃莱娜就不会成为一个作家。每一个写作的人，总会从一个理想写作出发，获取自己的文字，这个理想文本一直会出现在我们的面前，无法抵达。这是脑子里的幽灵，无法捕捉。结果是，莉拉的写作唯一留下的痕迹，就是埃莱娜的写作。”</p>]]></content>
       
@@ -253,8 +253,8 @@
     
     <entry>
       <title>书摘 · Die Welt von Gestern | 昨日的世界</title>
-      <link href="/2022/02/24/Die-Welt-von-Gestern/"/>
-      <url>/2022/02/24/Die-Welt-von-Gestern/</url>
+      <link href="/blog/2022/02/24/Die-Welt-von-Gestern/"/>
+      <url>/blog/2022/02/24/Die-Welt-von-Gestern/</url>
       
         <content type="html"><![CDATA[<p><a href="https://book.douban.com/subject/1062343/">昨日的世界 (豆瓣)</a></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>“但是，我并不抱怨，恰恰是流离失所的人才能够获得一种新含义的自由，只有与一切失去联系的人才会无所顾忌。因此我希望，我至少能具备完成一部真正反映时代的作品所必需的首要条件：公正和无偏见。”</p><h2 id="太平世界"><a href="#太平世界" class="headerlink" title="太平世界"></a>太平世界</h2><p>“时至今日，我内心深处仍无法完全摆脱这种幻想，虽然我对它已充分认清，完全失望。一个人童年时耳濡目染，时代气息已溶入他的血液，是难以磨灭的。不管现实每天在我耳边鼓噪些什么，不管我和我的众多同代人遭受过什么侮辱和考验，我还是不能否认青年时代的信仰：总有一天会好起来，尽管来之不易。今天，我们心神不宁地怀着破碎了的心情，像个盲人在恐怖的深渊中四处摸索，我依然能从中看到曾照耀我童年的星辰，用这种继承下来的信念，认为这种倒退只是“前进”过程中的一个间歇，以此来安慰自己。</p><p>“今天，巨大的风暴把世界击得粉碎，我才完全明白，太平世界不过是梦幻中的宫殿。我的父母就是住在这个宫殿里，就像住在一幢牢不可破的石头房子里一样。”</p><h2 id="上世纪的学校"><a href="#上世纪的学校" class="headerlink" title="上世纪的学校"></a>上世纪的学校</h2><p>“对青年一代这种心理上的压力，或者更确切地说，这种反心理的压力，只会产生两种截然不同的效果：不是使他们麻木，就是使他们兴奋不已。不妨查阅一下精神分析学家们的文献，看看这种荒唐的教育方法究竟造就了多少“自卑情结”。“自卑情结”这个词恰恰是经历过奥地利教育的人发明创造的，或许并不是巧合吧。我本人也要感谢这种压力，它使我很早就流露出对自由的酷爱，其激烈的程度是今天的青年人无法理解的。还有，在我的一生中，我对一切权威，对所有“教训口吻”的谈话恨之入骨，对一切不容置疑的说教反感至极——多年来，这已成了我的一种本能。”</p><p>“不过，总的说来，我对中学时的狂热，对那种只用眼睛和脑子的生活，从来没后悔过。它把求知欲注入了我的血液中，使它永远不会失去。以后我读的书和学到的一切，都是建立在中学时期打下的坚实基础上的。一个人的肌肉误了锻炼，以后还可以补上；而智力的飞跃，即心灵中那种内在的理解则不同，它只能在决定性的那几年里成型；只有早早地学会敞开自己心扉的人，以后才能把整个世界包容在自己的心里。”</p><h2 id="情窦初开"><a href="#情窦初开" class="headerlink" title="情窦初开"></a>情窦初开</h2><p>“整个十九世纪囿于一种妄想，以为人们能够用理性主义的明智解决一切冲突；以为把人的自然本能隐藏得越深，他那烦躁不安的冲动就会越来越缓和；以为只要不向年轻人提性的问题，他们就会忘却身上存在的自然本性。”</p><p>“用今天我们客观的眼光来看，那时候的服饰是把露在外面的丁点皮肤和真实的身材尽量遮掩起来，使人看不出她有何德性，恰恰相反，这种时尚反而使人难堪地突出了女人的性别特征。”</p><p>“这种社会道德，一方面承认性的存在，还给性的发泄创造了条件；另一方面在公开场合又对此讳莫如深，这种阴阳脸式的道德完完全全是一种欺骗。因为它一方面对年轻人的事睁一只眼闭一只眼，甚至对他们使眼色，要青年人变得“圆滑一些”，就像当时人们在家庭隐语中善意地戏说的那样，而另一方面它对女人则忧心忡忡地紧闭双眼，装成瞎子。甚至社会习俗也不得不默认：一个男人有性欲冲动是应该的，但如果老老实实地承认，一个女人也能被性欲征服，造物为了人类的繁衍生息也同样需要女性，这就触犯了“女人圣洁”的观念。”</p><p>“而那个社会就希望把年轻的姑娘培养成这个样子，既傻又顽固，既有教养又一无所知，既好奇又害羞，既无把握又无实际。这种脱离实际生活的教育，必然使她们在婚后失去自己的意愿，任凭丈夫摆布。当时的社会风尚似乎是要把一个姑娘作为最秘密理想的标志，作为品行端庄、纯洁无瑕、超脱世俗的象征来加以保护。如果一个年轻的姑娘二十五岁或者三十岁还没有结婚，那是多大的不幸啊！因为社会习俗毫无怜悯地要求一个三十岁的姑娘为了家庭和体统，始终保持那种和她的年龄早已不相称的、没有性经验、没有性需求的性盲状态。然而，这个形象日后却遭到可怕的丑化。[…]她们曾为了家庭和个人的名誉，不得不压制自己内在的生理需求：对爱情和对成为母亲的需求。然而，人们非但不体谅她们因牺牲自己的生活而造成的悲剧，反倒拿她们开玩笑，这些不通人情的人，真是可恶之极。一个以不诚实的态度压制人的自然本性而犯了罪的社会，总是最残酷地对待那些泄露了它的秘密并将之公之于世的人。”</p><h2 id="我的崎岖道路"><a href="#我的崎岖道路" class="headerlink" title="我的崎岖道路"></a>我的崎岖道路</h2><p>“开始，剧坛为我提供了许多诱人的、连我自己都不敢梦想的机会；可是每到最后一刻，剧坛又冷酷地把这些机会从我身边夺走。可想而知，青年时代的我认为这是命中注定的。后来我才知道，人生的道路是由内因决定的；我们的道路往往偏离我们的愿望，而且是极混乱的、没有道理的，但它终会把我们引向我们自己看不见的目标。”</p>]]></content>
       
@@ -272,8 +272,8 @@
     
     <entry>
       <title>工具 · Settle Down in Hexo</title>
-      <link href="/2021/12/28/Settle-Down-in-Hexo/"/>
-      <url>/2021/12/28/Settle-Down-in-Hexo/</url>
+      <link href="/blog/2021/12/28/Settle-Down-in-Hexo/"/>
+      <url>/blog/2021/12/28/Settle-Down-in-Hexo/</url>
       
         <content type="html"><![CDATA[<blockquote><p>记录一些Hexo维护相关的命令。</p></blockquote><h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>Step 0: 在本地博客目录下打开 Git Bash。<br>Step 1: Clone Theme from Github:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/zchengsite/hexo-theme-oranges.git themes/oranges</span><br></pre></td></tr></table></figure><p>Step 2: 编辑<strong>博客目录</strong>下的 <code>_config.yml</code>:</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">oranges</span></span><br></pre></td></tr></table></figure><h2 id="写作和发布"><a href="#写作和发布" class="headerlink" title="写作和发布"></a>写作和发布</h2><p><a href="https://hexo.io/docs/configuration">官方文档</a></p><h3 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h3><ul><li>新文章：<code>hexo new post &lt;title&gt;</code></li><li>新草稿：<code>hexo new draft &lt;title&gt;</code>。草稿不会显示在博客里。</li><li>发布草稿：<code>hexo publish draft &lt;title&gt;</code>。将草稿转成文章 (从 <code>_draft/</code> 移动到 <code>_post/</code>)。</li></ul><h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><ul><li>预览 (start) ：<code>hexo s</code>,  之后访问<code>localhost:4000</code>。可以实时看到变化。</li><li>生成 (generate)：<code>hexo g</code>。</li><li>部署 (deploy)：<code>hexo d</code>，之后访问博客地址即可。</li><li>清除缓存 (clean)：<code>hexo clean</code>，注意 generate 和 deploy 只会更新 .yml 设置和文章。因此在更改 css 文件后，需要在 generate 之前使用该命令清除缓存。</li></ul><h2 id="代码高亮配色"><a href="#代码高亮配色" class="headerlink" title="代码高亮配色"></a>代码高亮配色</h2><h3 id="多行代码"><a href="#多行代码" class="headerlink" title="多行代码"></a>多行代码</h3><p>在<code>theme/&#123;current_theme&#125;/source/css/highlight.css</code>中更改配色。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@decorator(<span class="params">param=<span class="number">1</span></span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f</span>(<span class="params">x</span>):</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot; Syntax Highlighting Demo</span></span><br><span class="line"><span class="string">        @param x Parameter&quot;&quot;&quot;</span></span><br><span class="line">    s = (<span class="string">&quot;Test&quot;</span>, <span class="number">2</span>+<span class="number">3</span>, &#123;<span class="string">&#x27;a&#x27;</span>: <span class="string">&#x27;b&#x27;</span>&#125;, x)   <span class="comment"># Comment</span></span><br><span class="line">    <span class="built_in">print</span> s[<span class="number">0</span>].lower()</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        byte_string = <span class="string">&#x27;newline:\n also newline:\x0a&#x27;</span></span><br><span class="line">        text_string = <span class="string">u&quot;Cyrillic Я is \u042f. Oops: \u042g&quot;</span></span><br><span class="line">        self.makeSense(whatever=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">makeSense</span>(<span class="params">self, whatever</span>):</span></span><br><span class="line">        self.sense = whatever</span><br><span class="line">        <span class="keyword">if</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">x = <span class="built_in">len</span>(<span class="string">&#x27;abc&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(f.__doc__)</span><br></pre></td></tr></table></figure><!-- ### 行内代码意外发现行内代码的字号被缩小到了85%。而经过实验发现，`Consolas`字体在缩放到90%以下时会~~变丑~~失去灵魂。在`theme/{current_theme}/source/css/github-markdown.css`中将 font-size 更改到92%。 --><!-- # 标题大小一级标题字太大是永远的痛……在`theme/{current_theme}/source/css/github-markdown.css`中更改了 H1-H3 的标题大小。H1：2em -> 1.5em。H2~H6 效果如下：## 二级标题 1.5em -> 1.25em。### 三级标题1.25em -> 1.125em。#### 四级标题1em 不变。##### 五级标题0.875em 不变。###### 六级标题0.85em 不变。 --><h2 id="多标签文章"><a href="#多标签文章" class="headerlink" title="多标签文章"></a>多标签文章</h2><p>使用以下格式给文章添加多个标签：</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title: Settle Down in Hexo</span><br><span class="line">date: 2021-12-28 16:53:06</span><br><span class="line">tags: </span><br><span class="line"><span class="bullet">-</span> 第一个标签</span><br><span class="line"><span class="bullet">-</span> 第二个标签</span><br><span class="line"><span class="bullet">-</span> 第三个标签</span><br></pre></td></tr></table></figure>]]></content>
       
