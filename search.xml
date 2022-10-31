@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>笔记 · 字体排印学 | Typography</title>
+      <link href="/blog/2022/10/31/Typography/"/>
+      <url>/blog/2022/10/31/Typography/</url>
+      
+        <content type="html"><![CDATA[<p>最近看了设计师<a href="https://space.bilibili.com/38053181">oooooohmygosh</a>创作的关于<a href="https://zh.wikipedia.org/wiki/%E5%AD%97%E4%BD%93%E6%8E%92%E5%8D%B0%E5%AD%A6">字体排印学</a>（<a href="https://en.wikipedia.org/wiki/Typography">Typography</a>）的视频。</p><h2 id="「直角引号」是用来装X的吗？"><a href="#「直角引号」是用来装X的吗？" class="headerlink" title="「直角引号」是用来装X的吗？"></a><a href="https://www.bilibili.com/video/BV1wd4y1T73v/">「直角引号」是用来装X的吗？</a></h2><h3 id="左右引号与傻瓜引号"><a href="#左右引号与傻瓜引号" class="headerlink" title="左右引号与傻瓜引号"></a>左右引号与傻瓜引号</h3><p>至今网上还能看到很多关于「中文引号分方向，英文引号不分方向」的说法。然而所谓「英文引号不分方向」是键盘输入法（和编程语言）引发的一个迷思。</p><p>不分方向的引号<code>&quot;</code>被称为直引号，也叫做「傻瓜引号」（”dummy quote”），是一种简化版的引号。真正的英文引号是左右不同的半角引号。</p><p>这也解释了一个困扰我很久的问题：用<code>shift+&#39;</code>输入双引号，出现的引号方向是左右交替的。在一些带自动补全的editor里，输入左引号会出现一对引号，但第二次打出来的又是右引号，于是只能打一个删一个。导致这个问题的根本原因是，<code>shift+&#39;</code>本身对应的是直引号，我们能用它打出来带方向的引号是因为经过了系统或者编辑器的算法的自动修正。由于系统并不知道用户需要的是哪一个方向的，于是大多数算法便假设用户正在顺序输入文本，然后通过左右交替的顺序补全。</p><p>好消息是这个问题在MacOS里已经被解决了，单独输入某个方向的引号可以使用以下快捷键：</p><ul><li><code>option+[</code>: 左双引号</li><li><code>option+shift+[</code>: 右双引号</li><li><code>option+]</code>: 左单引号</li><li><code>option+shift+]</code>: 右但引号</li></ul><p>至于Windows系统，我暂时没有找到方便的输入特定方向引号的方法。有<a href="https://www.lifewire.com/typing-quotes-apostrophes-and-primes-1074104">文章</a>指出可以通过快捷键<code>Alt+numeric_keys</code>输入（e.g., <code>ALT+0147</code>对应左双引号）。如果我没理解错的话，输入一个引号需要连按五个键，这叫哪门子的快捷键=。=</p><h3 id="直角引号「」"><a href="#直角引号「」" class="headerlink" title="直角引号「」"></a>直角引号<code>「」</code></h3><p>我最近很喜欢在中文里用直角引号，因为它看起来清晰、工整，且不像双引号那样需要格外注意中英文的区别。然而跟很多人一样，我也潜意识里觉得直角引号来自古代汉语。事实上，最早的直角引号出现在古代日文书籍中，后来才被用于中文排版。在MacOS中，可通过在中文输入法状态下输入<code>command+[</code>和<code>command+]</code>获得直角引号。</p><h3 id="引号与文字间距"><a href="#引号与文字间距" class="headerlink" title="引号与文字间距"></a>引号与文字间距</h3><p>为什么文档中有时候突然有一行字间距很大？因为根据utf-8标准，很多语言（不包括中文）的引号是不能出现在行首或者行尾的，这就给换行的位置增添了许多限制，导致在两端对齐的设定下可能出现部分行的文字间距过大或过小。如果中文文档里出现这种情况，则很可能是由于该文档或者网页的encoding language被设置为了默认的英文，这时即使我们输入的内容是中文的，编辑器仍然认为该文档中的引号不能排在行首。原博主给出的解决方案是手动修改encoding language。</p><h2 id="把宋体放大100倍会看到什么？"><a href="#把宋体放大100倍会看到什么？" class="headerlink" title="把宋体放大100倍会看到什么？"></a><a href="https://www.bilibili.com/video/BV1uK411D7TT/">把宋体放大100倍会看到什么？</a></h2><h3 id="标题字体与正文字体"><a href="#标题字体与正文字体" class="headerlink" title="标题字体与正文字体"></a>标题字体与正文字体</h3><p>宋体之所以适合做正文字体，是因为细节较少，可以做到「像空气一样存在」；标题字体则需要通过较大的字重或者夸张的细节来吸引注意。</p><p>看到这部分的时候想到，我一直以为Word里「宋体（标题）」和「宋体（正文）」是完全相同的两个字体，其实应该不是？有时间可以专门比较一下。</p><h3 id="复古字体"><a href="#复古字体" class="headerlink" title="复古字体"></a>复古字体</h3><p>当代设计师制作复古字体的方式有很多，包括从古书里直接扫描（保留缺损痕迹）、扫描+修复（填补缺损痕迹）、摘录几十个获取灵感剩下的自己设计（很像few-shot learning）等等。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Typography </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>清单 · 今天看什么</title>
       <link href="/blog/2022/10/27/Videos/"/>
       <url>/blog/2022/10/27/Videos/</url>
       
-        <content type="html"><![CDATA[<h2 id="Oct-25-Nov-1-2022"><a href="#Oct-25-Nov-1-2022" class="headerlink" title="Oct 25 - Nov 1, 2022"></a>Oct 25 - Nov 1, 2022</h2><p><a href="https://www.bilibili.com/video/BV1wd4y1T73v/">「直角引号」是用来装X的吗？</a> 我们常用的直引号<code>&quot;</code>叫做”dummy quote”，是一种简化版的引号。真正的英文引号左右应该是不同的，所谓“英文引号不分方向”只是电脑键盘设计引起的一个迷思。之所以方向不像中文引号那么明显，是因为英文引号是半角字符，看起来区别会弱一些。</p><p>这也解释了一个困扰我很久的问题：用<code>shift+&#39;</code>输入双引号，出现的引号方向是左右交替的。在一些带自动补全的editor里，输入左引号会出现一对引号，但第二次打出来的又是右引号，于是只能打一个删一个。导致这个问题的根本原因是<code>shift+&#39;</code>对应的是直引号而非带方向的引号。之后系统自动修正时并不知道用户需要的是哪一个方向的，只能假设用户正在顺序输入文本，然后通过左右交替的顺序补全。</p><p>好消息是这个问题在MacOS里已经被解决了，单独输入某个方向的引号可以使用以下快捷键：</p><ul><li><code>option+[</code>: 左双引号</li><li><code>option+shift+[</code>: 右双引号</li><li><code>option+]</code>: 左单引号</li><li><code>option+shift+]</code>: 右但引号</li></ul><p>直角引号：可能很多人是从日文里引入的。</p><p>为什么有时候突然会有一行字间距很大：因为根据utf-8标准，很多语言（不包括中文）的引号是不能出现在行首或者行尾的，这就进一步限制了换行的位置。而中文文档里有时候也会出现这种情况是因为，即使我们输入的内容是中文的，文档的encoding仍然有可能是默认的英文，于是编辑器认为该文档中的引号不能排在行首。</p><p><a href="https://www.bilibili.com/video/BV1uK411D7TT/">把宋体放大100倍会看到什么？</a> 解释了中文字体设计上的一些问题，比如宋体之所以适合做正文字体，是因为细节较少，可以做到「像空气一样存在」；标题字体则需要通过较大的字重或者夸张的细节来吸引注意。看到这里进一步想到，我一直以为Word里「宋体（标题）」和「宋体（正文）」是完全相同的，其实应该不是。有时间可以去比较一下。</p><p>还介绍了设计复古字体的几种方式，比如从古书里直接扫描（保留缺损痕迹）、扫描+修复（填补缺损痕迹）、摘录几十个获取灵感剩下的自己设计（aka few-shot learning）等等。</p><p><a href="https://www.youtube.com/watch?v=ROpNi-feQx4">《密室大逃脱4》0713体验版</a>：仍然很好笑。（芒果的付费节目在Youtube官方频道竟然不收费……）</p><p><a href="https://movie.douban.com/subject/1301509/">《修女也疯狂》</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Oct-31-Nov-6-2022"><a href="#Oct-31-Nov-6-2022" class="headerlink" title="Oct 31 - Nov 6, 2022"></a>Oct 31 - Nov 6, 2022</h2><p>双琴侠TwosetViolin的新视频：<a href="https://www.bilibili.com/video/BV1ZV4y1G7Ni/">帕格尼尼本人对粉墨新歌 Shut Down 的反应——</a>，和随后推出的<a href="https://www.bilibili.com/video/BV19m4y1F7KW/">帕格尼尼”Sell Out”正式版MV</a>。什么时候中文互联网人也能这么为所欲为（不是）！</p><h2 id="Oct-24-Oct-30-2022"><a href="#Oct-24-Oct-30-2022" class="headerlink" title="Oct 24 - Oct 30, 2022"></a>Oct 24 - Oct 30, 2022</h2><p><a href="https://space.bilibili.com/38053181">oooooohmygosh</a>的字体排印学（Typography）系列：见<a href="http://localhost:4000/blog/2022/10/31/Typography/">笔记</a>。</p><p><a href="https://www.youtube.com/watch?v=ROpNi-feQx4">《密室大逃脱4》0713体验版</a>：仍然很好笑。（芒果的付费节目在Youtube官方频道竟然不收费……）</p><p><a href="https://movie.douban.com/subject/1301509/">《修女也疯狂》</a>：一个歌妓在修道院练团的故事。让我想起去年冬天在choir唱过的歌。</p><h2 id="Oct-17-Oct-23-2022"><a href="#Oct-17-Oct-23-2022" class="headerlink" title="Oct 17 - Oct 23, 2022"></a>Oct 17 - Oct 23, 2022</h2><p><a href="https://space.bilibili.com/1519547765/video">罗兰朵女士</a>：知名家居翻车博主，最近的快乐源泉。代表作：<a href="https://www.bilibili.com/video/BV1yU4y1d7JZ">可怕的中介</a>，<a href="https://www.bilibili.com/video/BV1z94y1o79J/">装修是一场庞大的连锁反应</a>。</p>]]></content>
       
       
       
