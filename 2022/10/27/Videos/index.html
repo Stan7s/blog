@@ -11,7 +11,7 @@
   
   <title>
     
-      archive_a: 2022/8 
+      清单 · 今天看什么 
       
       
       |
@@ -101,156 +101,137 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2022</span>
-          </h2>
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">清单 · 今天看什么</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="Update time"></i>
+          2022-10-27 15:29:33
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="Tags"></i>
+                
+                <span class="span--tag">
+                  <a href="/tags/List/" title="List">
+                    <b>#</b> List
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/tags/Video/" title="Video">
+                    <b>#</b> Video
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <h2 id="Oct-25-Nov-1-2022"><a href="#Oct-25-Nov-1-2022" class="headerlink" title="Oct 25 - Nov 1, 2022"></a>Oct 25 - Nov 1, 2022</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1wd4y1T73v/">「直角引号」是用来装X的吗？</a> 我们常用的直引号<code>&quot;</code>叫做”dummy quote”，是一种简化版的引号。真正的英文引号左右应该是不同的，所谓“英文引号不分方向”只是电脑键盘设计引起的一个迷思。之所以方向不像中文引号那么明显，是因为英文引号是半角字符，看起来区别会弱一些。</p>
+<p>这也解释了一个困扰我很久的问题：用<code>shift+&#39;</code>输入双引号，出现的引号方向是左右交替的。在一些带自动补全的editor里，输入左引号会出现一对引号，但第二次打出来的又是右引号，于是只能打一个删一个。导致这个问题的根本原因是<code>shift+&#39;</code>对应的是直引号而非带方向的引号。之后系统自动修正时并不知道用户需要的是哪一个方向的，只能假设用户正在顺序输入文本，然后通过左右交替的顺序补全。</p>
+<p>好消息是这个问题在MacOS里已经被解决了，单独输入某个方向的引号可以使用以下快捷键：</p>
+<ul>
+<li><code>option+[</code>: 左双引号</li>
+<li><code>option+shift+[</code>: 右双引号</li>
+<li><code>option+]</code>: 左单引号</li>
+<li><code>option+shift+]</code>: 右但引号</li>
+</ul>
+<p>直角引号：可能很多人是从日文里引入的。</p>
+<p>为什么有时候突然会有一行字间距很大：因为根据utf-8标准，很多语言（不包括中文）的引号是不能出现在行首或者行尾的，这就进一步限制了换行的位置。而中文文档里有时候也会出现这种情况是因为，即使我们输入的内容是中文的，文档的encoding仍然有可能是默认的英文，于是编辑器认为该文档中的引号不能排在行首。</p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1uK411D7TT/">把宋体放大100倍会看到什么？</a> 解释了中文字体设计上的一些问题，比如宋体之所以适合做正文字体，是因为细节较少，可以做到「像空气一样存在」；标题字体则需要通过较大的字重或者夸张的细节来吸引注意。看到这里进一步想到，我一直以为Word里「宋体（标题）」和「宋体（正文）」是完全相同的，其实应该不是。有时间可以去比较一下。</p>
+<p>还介绍了设计复古字体的几种方式，比如从古书里直接扫描（保留缺损痕迹）、扫描+修复（填补缺损痕迹）、摘录几十个获取灵感剩下的自己设计（aka few-shot learning）等等。</p>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ROpNi-feQx4">《密室大逃脱4》0713体验版</a>：仍然很好笑。（芒果的付费节目在Youtube官方频道竟然不收费……）</p>
+<p><a target="_blank" rel="noopener" href="https://movie.douban.com/subject/1301509/">《修女也疯狂》</a></p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2022/10/25/Live-to-Peform/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="Update time"></i>
+              2022-10-27 15:29:33
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="Tags"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/List/" title="List">
+                        <b>#</b> List
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/Video/" title="Video">
+                        <b>#</b> Video
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="清单 · 今天看什么">
-        <div class="time-m-d">10-27</div>
-        <div class="title">
-          <a href="/2022/10/27/Videos/">
-            <span>清单 · 今天看什么</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="碎片 · 为了被看的生活">
-        <div class="time-m-d">10-25</div>
-        <div class="title">
-          <a href="/2022/10/25/Live-to-Peform/">
-            <span>碎片 · 为了被看的生活</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="工具 · Write Papers in LaTeX with VSCode and Zotero">
-        <div class="time-m-d">10-23</div>
-        <div class="title">
-          <a href="/2022/10/23/Write-Latex-in-VSCode/">
-            <span>工具 · Write Papers in LaTeX with VSCode and Zotero</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="播客 · 性向流动的那一瞬">
-        <div class="time-m-d">10-23</div>
-        <div class="title">
-          <a href="/2022/10/23/Fluid/">
-            <span>播客 · 性向流动的那一瞬</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="清单 · 自存播客列表">
-        <div class="time-m-d">10-22</div>
-        <div class="title">
-          <a href="/2022/10/22/Podcast-Collection/">
-            <span>清单 · 自存播客列表</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="书摘 · Reading Lolita in Tehran | 在德黑兰读《洛丽塔》">
-        <div class="time-m-d">10-15</div>
-        <div class="title">
-          <a href="/2022/10/15/Reading-Lolita-in-Tehran/">
-            <span>书摘 · Reading Lolita in Tehran | 在德黑兰读《洛丽塔》</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="书摘 · Self-Esteem | 自尊">
-        <div class="time-m-d">10-14</div>
-        <div class="title">
-          <a href="/2022/10/14/Self-Esteem/">
-            <span>书摘 · Self-Esteem | 自尊</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="书摘 · The Testments | 证言">
-        <div class="time-m-d">10-03</div>
-        <div class="title">
-          <a href="/2022/10/03/The-Testaments/">
-            <span>书摘 · The Testments | 证言</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="歌词 · 海上花 | Flowers of Shanghai">
-        <div class="time-m-d">08-25</div>
-        <div class="title">
-          <a href="/2022/08/25/Flowers-of-Shanghai/">
-            <span>歌词 · 海上花 | Flowers of Shanghai</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="碎片 · 钢琴课">
-        <div class="time-m-d">08-08</div>
-        <div class="title">
-          <a href="/2022/08/08/Piano-Lesson/">
-            <span>碎片 · 钢琴课</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="播客 · 独居">
-        <div class="time-m-d">08-07</div>
-        <div class="title">
-          <a href="/2022/08/07/Living-Alone/">
-            <span>播客 · 独居</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="书摘 · La frantumaglia | 碎片">
-        <div class="time-m-d">02-25</div>
-        <div class="title">
-          <a href="/2022/02/25/La-frantumaglia/">
-            <span>书摘 · La frantumaglia | 碎片</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="书摘 · Die Welt von Gestern | 昨日的世界">
-        <div class="time-m-d">02-24</div>
-        <div class="title">
-          <a href="/2022/02/24/Die-Welt-von-Gestern/">
-            <span>书摘 · Die Welt von Gestern | 昨日的世界</span>
-          </a>
-        </div>
-      </div>
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2021</span>
-          </h2>
-        </div>
-      
-      <div class="post-item" title="工具 · Settle Down in Hexo">
-        <div class="time-m-d">12-28</div>
-        <div class="title">
-          <a href="/2021/12/28/Settle-Down-in-Hexo/">
-            <span>工具 · Settle Down in Hexo</span>
-          </a>
-        </div>
-      </div>
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Oct-25-Nov-1-2022"><span class="toc-text">Oct 25 - Nov 1, 2022</span></a></li></ol>
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
     
   </div>
-</div>
+
 
         <div class="footer">
   <div class="social">
@@ -501,6 +482,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E6%B8%85%E5%8D%95%20%C2%B7%20%E4%BB%8A%E5%A4%A9%E7%9C%8B%E4%BB%80%E4%B9%88 + '&url=' + http%3A%2F%2Fstan7s.github.io%2F2022%2F10%2F27%2FVideos%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://stan7s.github.io/2022/10/27/Videos/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
