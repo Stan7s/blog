@@ -11,8 +11,8 @@
   
   <title>
     
-      Tag 
-       : Fragments
+      清单 · 今天看什么 
+      
       
       |
     
@@ -101,48 +101,133 @@
 
 
       <div class="flex-container">
-        <!-- 标签详情页，展示某个标签下的文章列表，url形式：https://yoursite/tags/某个标签/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<div class="container tag-details">
-  <div class="content-title">
-    <h2>
-      <span>Fragments</span>
-    </h2>
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">清单 · 今天看什么</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="Update time"></i>
+          2022-10-27 15:29:33
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="Tags"></i>
+                
+                <span class="span--tag">
+                  <a href="/blog/tags/List/" title="List">
+                    <b>#</b> List
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/blog/tags/Video/" title="Video">
+                    <b>#</b> Video
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <h2 id="Oct-31-Nov-6-2022"><a href="#Oct-31-Nov-6-2022" class="headerlink" title="Oct 31 - Nov 6, 2022"></a>Oct 31 - Nov 6, 2022</h2><p>双琴侠TwosetViolin的新视频：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ZV4y1G7Ni/">帕格尼尼本人对粉墨新歌 Shut Down 的反应——</a>，和随后推出的<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV19m4y1F7KW/">帕格尼尼”Sell Out”正式版MV</a>。什么时候中文互联网人也能这么为所欲为！</p>
+<p>（后续似乎是两边粉丝在Twitter上吵翻了。果然没有让我失望。）</p>
+<h2 id="Oct-24-Oct-30-2022"><a href="#Oct-24-Oct-30-2022" class="headerlink" title="Oct 24 - Oct 30, 2022"></a>Oct 24 - Oct 30, 2022</h2><p><a target="_blank" rel="noopener" href="https://space.bilibili.com/38053181">oooooohmygosh</a>的字体排印学（Typography）系列：见<a target="_blank" rel="noopener" href="http://localhost:4000/blog/2022/10/31/Typography/">笔记</a>。</p>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ROpNi-feQx4">《密室大逃脱4》0713体验版</a>：仍然很好笑。（芒果的付费节目在Youtube官方频道竟然不收费……）</p>
+<p><a target="_blank" rel="noopener" href="https://movie.douban.com/subject/1301509/">《修女也疯狂》</a>：一个歌妓在修道院搞合唱团。让我想起去年冬天在choir唱过的歌。</p>
+<h2 id="Oct-17-Oct-23-2022"><a href="#Oct-17-Oct-23-2022" class="headerlink" title="Oct 17 - Oct 23, 2022"></a>Oct 17 - Oct 23, 2022</h2><p><a target="_blank" rel="noopener" href="https://space.bilibili.com/1519547765/video">罗兰朵女士</a>：最近的快乐源泉。代表作<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1yU4y1d7JZ">可怕的中介</a>，<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1z94y1o79J/">装修是一场庞大的连锁反应</a>。</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/blog/2022/10/25/Live-to-Peform/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="Update time"></i>
+              2022-10-27 15:29:33
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="Tags"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/blog/tags/List/" title="List">
+                        <b>#</b> List
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/blog/tags/Video/" title="Video">
+                        <b>#</b> Video
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+              <a href="/blog/2022/10/31/Typography/" target="_self">
+                <span>Next</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+    </div>
+    
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
   </div>
-  
-    <div class="post-list">
-      <div class="post-item" title="碎片 · 追星与人类观察">
-        <span class="time-m-d">2022-11-01</span>
-        <a href="/blog/2022/11/01/Becoming-a-Fan/">
-          <span>碎片 · 追星与人类观察</span>
-        </a>
-      </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Oct-31-Nov-6-2022"><span class="toc-text">Oct 31 - Nov 6, 2022</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Oct-24-Oct-30-2022"><span class="toc-text">Oct 24 - Oct 30, 2022</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Oct-17-Oct-23-2022"><span class="toc-text">Oct 17 - Oct 23, 2022</span></a></li></ol>
     </div>
+  </div>
+
   
-    <div class="post-list">
-      <div class="post-item" title="碎片 · 为了被看的生活">
-        <span class="time-m-d">2022-10-25</span>
-        <a href="/blog/2022/10/25/Live-to-Peform/">
-          <span>碎片 · 为了被看的生活</span>
-        </a>
-      </div>
-    </div>
-  
-    <div class="post-list">
-      <div class="post-item" title="碎片 · 钢琴课">
-        <span class="time-m-d">2022-08-08</span>
-        <a href="/blog/2022/08/08/Piano-Lesson/">
-          <span>碎片 · 钢琴课</span>
-        </a>
-      </div>
-    </div>
-  
-  <nav class="post-navigation">
+<script src="/blog/js/catalog.js"></script>
+
+
+
+
     
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+  </div>
+
 
         <div class="footer">
   <div class="social">
@@ -393,6 +478,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E6%B8%85%E5%8D%95%20%C2%B7%20%E4%BB%8A%E5%A4%A9%E7%9C%8B%E4%BB%80%E4%B9%88 + '&url=' + http%3A%2F%2Fstan7s.github.io%2Fblog%2F2022%2F10%2F27%2FWhat-to-Watch%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://stan7s.github.io/blog/2022/10/27/What-to-Watch/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/blog/js/shares.js"></script>
