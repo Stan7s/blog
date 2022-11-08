@@ -14,9 +14,9 @@
       
         <tags>
             
-            <tag> Podcast </tag>
+            <tag> 碎片 </tag>
             
-            <tag> Fragments </tag>
+            <tag> Self-reflection </tag>
             
         </tags>
       
@@ -37,9 +37,9 @@
             
             <tag> Podcast </tag>
             
-            <tag> Fragments </tag>
-            
             <tag> Observation </tag>
+            
+            <tag> 碎片 </tag>
             
         </tags>
       
@@ -77,9 +77,9 @@
       
         <tags>
             
-            <tag> List </tag>
-            
             <tag> Video </tag>
+            
+            <tag> 清单 </tag>
             
         </tags>
       
@@ -98,9 +98,9 @@
       
         <tags>
             
-            <tag> Fragments </tag>
+            <tag> 碎片 </tag>
             
-            <tag> Inside </tag>
+            <tag> Self-reflection </tag>
             
         </tags>
       
@@ -125,6 +125,8 @@
             
             <tag> Academic Writing </tag>
             
+            <tag> 工具 </tag>
+            
         </tags>
       
     </entry>
@@ -143,6 +145,8 @@
         <tags>
             
             <tag> Podcast </tag>
+            
+            <tag> 播客 </tag>
             
         </tags>
       
@@ -163,7 +167,7 @@
             
             <tag> Podcast </tag>
             
-            <tag> List </tag>
+            <tag> 清单 </tag>
             
         </tags>
       
@@ -184,7 +188,7 @@
             
             <tag> Book </tag>
             
-            <tag> Read </tag>
+            <tag> 书摘 </tag>
             
         </tags>
       
@@ -205,9 +209,9 @@
             
             <tag> Book </tag>
             
-            <tag> Read </tag>
-            
             <tag> Mental Health </tag>
+            
+            <tag> 书摘 </tag>
             
         </tags>
       
@@ -228,7 +232,7 @@
             
             <tag> Book </tag>
             
-            <tag> Read </tag>
+            <tag> 书摘 </tag>
             
         </tags>
       
@@ -247,7 +251,7 @@
       
         <tags>
             
-            <tag> Lyrics </tag>
+            <tag> 歌词 </tag>
             
         </tags>
       
@@ -266,9 +270,9 @@
       
         <tags>
             
-            <tag> Fragments </tag>
-            
             <tag> Piano </tag>
+            
+            <tag> 碎片 </tag>
             
         </tags>
       
@@ -289,6 +293,8 @@
             
             <tag> Podcast </tag>
             
+            <tag> 播客 </tag>
+            
         </tags>
       
     </entry>
@@ -308,6 +314,8 @@
             
             <tag> Book </tag>
             
+            <tag> 书摘 </tag>
+            
         </tags>
       
     </entry>
@@ -326,6 +334,8 @@
         <tags>
             
             <tag> Book </tag>
+            
+            <tag> 书摘 </tag>
             
         </tags>
       
@@ -351,6 +361,8 @@
             <tag> Software </tag>
             
             <tag> Blog </tag>
+            
+            <tag> 工具 </tag>
             
         </tags>
       

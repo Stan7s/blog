@@ -11,8 +11,8 @@
   
   <title>
     
-      工具 · Write Papers in LaTeX with VSCode and Zotero 
-      
+      Tag 
+       : 播客
       
       |
     
@@ -101,169 +101,39 @@
 
 
       <div class="flex-container">
-        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
-<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+        <!-- 标签详情页，展示某个标签下的文章列表，url形式：https://yoursite/tags/某个标签/ -->
 
-<!-- LaTex Display -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-
-
-
+<div class="container tag-details">
+  <div class="content-title">
+    <h2>
+      <span>播客</span>
+    </h2>
+  </div>
   
-
-  
-
-  
-
-  
-  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
-  <div class="container post-details" id="post-details">
-    <div class="post-content">
-      <div class="post-title">工具 · Write Papers in LaTeX with VSCode and Zotero</div>
-      <div class="post-attach">
-        <span class="post-pubtime">
-          <i class="iconfont icon-updatetime" title="Update time"></i>
-          2022-10-23 20:42:05
-        </span>
-        
-              <span class="post-tags">
-                <i class="iconfont icon-tags" title="Tags"></i>
-                
-                <span class="span--tag">
-                  <a href="/blog/tags/Software/" title="Software">
-                    <b>#</b> Software
-                  </a>
-                </span>
-                
-                <span class="span--tag">
-                  <a href="/blog/tags/Plugin/" title="Plugin">
-                    <b>#</b> Plugin
-                  </a>
-                </span>
-                
-                <span class="span--tag">
-                  <a href="/blog/tags/Academic-Writing/" title="Academic Writing">
-                    <b>#</b> Academic Writing
-                  </a>
-                </span>
-                
-                <span class="span--tag">
-                  <a href="/blog/tags/%E5%B7%A5%E5%85%B7/" title="工具">
-                    <b>#</b> 工具
-                  </a>
-                </span>
-                
-              </span>
-          
+    <div class="post-list">
+      <div class="post-item" title="播客 · 性向流动的那一瞬">
+        <span class="time-m-d">2022-10-23</span>
+        <a href="/blog/2022/10/23/Fluid/">
+          <span>播客 · 性向流动的那一瞬</span>
+        </a>
       </div>
-      <div class="markdown-body">
-        <p>I’ve always wanted to find a way to write papers in an elegent way, including editing LaTeX and adding citations. Here is how.</p>
-<h2 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h2><ul>
-<li>VSCode Plugins: <a target="_blank" rel="noopener" href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">LaTeX Workshop</a>, <a target="_blank" rel="noopener" href="https://marketplace.visualstudio.com/items?itemName=bnavetta.zoterolatex">Zotero LaTeX</a></li>
-<li>Zotero Plugins: <a target="_blank" rel="noopener" href="https://retorque.re/zotero-better-bibtex/">Better BibTeX for Zotero</a></li>
-</ul>
-<h2 id="Workflow"><a href="#Workflow" class="headerlink" title="Workflow"></a>Workflow</h2><h3 id="Write-LaTeX"><a href="#Write-LaTeX" class="headerlink" title="Write LaTeX"></a>Write LaTeX</h3><ol>
-<li>Open a <code>.tex</code> file in VSCode.</li>
-<li>Click the TeX icon at the left menubar, compile file and open PDF preview.</li>
-<li>Write LaTeX in the <code>.tex</code> file. The PDF will automatically refresh if auto compilation has been configured.</li>
-</ol>
-<h3 id="Insert-Citation"><a href="#Insert-Citation" class="headerlink" title="Insert Citation"></a>Insert Citation</h3><ol>
-<li>In Zotero, right click the folder containing papers you would like to cite in your paper and select <code>Export Collection</code>. Select “Better BibLaTeX” as the format. Check the option “Keep Updated” to keep the exported <code>.bib</code> file updated when you make changes to this Zotero collection. Save the <code>.bib</code> file under the same directory of your paper.</li>
-<li>In VSCode, add <code>\bibliography&#123;EXPORTED_BIB_FILENAME&#125;</code> to the <code>.tex</code> file.</li>
-<li>To insert a citation, press <code>Option+M</code> (<code>Alt+M</code> for Windows) to toggle Zotero citation selector. Search for the paper and click <code>Enter</code> to insert its citekey.</li>
-</ol>
-<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
-<li>Some LaTeX templates might require different bibliography keys. For example, <a target="_blank" rel="noopener" href="https://github.com/acl-org/acl-style-files">the ACL rolling review Template</a> requires the keys “year” and “journal” instead of “date” and “journalname”. To match its style, select “Better BibTeX” as the format instead of “Better BibLaTeX” when exporting the <code>.bib</code> file from Zotero.</li>
-</ul>
-
-      </div>
-      
-        <div class="prev-or-next">
-          <div class="post-foot-next">
-            
-              <a href="/blog/2022/10/23/Fluid/" target="_self">
-                <i class="iconfont icon-chevronleft"></i>
-                <span>Prev</span>
-              </a>
-            
-          </div>
-          <div class="post-attach">
-            <span class="post-pubtime">
-              <i class="iconfont icon-updatetime" title="Update time"></i>
-              2022-10-23 20:42:05
-            </span>
-            
-                  <span class="post-tags">
-                    <i class="iconfont icon-tags" title="Tags"></i>
-                    
-                    <span class="span--tag">
-                      <a href="/blog/tags/Software/" title="Software">
-                        <b>#</b> Software
-                      </a>
-                    </span>
-                    
-                    <span class="span--tag">
-                      <a href="/blog/tags/Plugin/" title="Plugin">
-                        <b>#</b> Plugin
-                      </a>
-                    </span>
-                    
-                    <span class="span--tag">
-                      <a href="/blog/tags/Academic-Writing/" title="Academic Writing">
-                        <b>#</b> Academic Writing
-                      </a>
-                    </span>
-                    
-                    <span class="span--tag">
-                      <a href="/blog/tags/%E5%B7%A5%E5%85%B7/" title="工具">
-                        <b>#</b> 工具
-                      </a>
-                    </span>
-                    
-                  </span>
-              
-          </div>
-          <div class="post-foot-prev">
-            
-              <a href="/blog/2022/10/25/Live-to-Peform/" target="_self">
-                <span>Next</span>
-                <i class="iconfont icon-chevronright"></i>
-              </a>
-            
-          </div>
-        </div>
-      
     </div>
-    
-  <div id="btn-catalog" class="btn-catalog">
-    <i class="iconfont icon-catalog"></i>
-  </div>
-  <div class="post-catalog hidden" id="catalog">
-    <div class="title">Contents</div>
-    <div class="catalog-content">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Requirements"><span class="toc-text">Requirements</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Workflow"><span class="toc-text">Workflow</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Write-LaTeX"><span class="toc-text">Write LaTeX</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Insert-Citation"><span class="toc-text">Insert Citation</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Notes"><span class="toc-text">Notes</span></a></li></ol>
-    </div>
-  </div>
-
   
-<script src="/blog/js/catalog.js"></script>
-
-
-
-
+    <div class="post-list">
+      <div class="post-item" title="播客 · 独居">
+        <span class="time-m-d">2022-08-07</span>
+        <a href="/blog/2022/08/07/Living-Alone/">
+          <span>播客 · 独居</span>
+        </a>
+      </div>
+    </div>
+  
+  <nav class="post-navigation">
     
-  </div>
-
+    <span class="page-num">1 / 1</span>
+    
+  </nav>
+</div>
 
         <div class="footer">
   <div class="social">
@@ -514,24 +384,6 @@ MathJax = {
 
 
         
-  
-    <div class="share-icon tools-bar-item">
-      <a href="javascript: void(0)" id="share-icon">
-        <i class="iconfont iconshare"></i>
-      </a>
-      <div class="share-content hidden">
-        
-          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E5%B7%A5%E5%85%B7%20%C2%B7%20Write%20Papers%20in%20LaTeX%20with%20VSCode%20and%20Zotero + '&url=' + http%3A%2F%2Fstan7s.github.io%2Fblog%2F2022%2F10%2F23%2FWrite-Latex-in-VSCode%2F + '" target="_blank" title="Twitter">
-            <i class="iconfont icon-twitter"></i>
-          </a>
-        
-        
-          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://stan7s.github.io/blog/2022/10/23/Write-Latex-in-VSCode/" target="_blank" title="Facebook">
-            <i class="iconfont icon-facebooksquare"></i>
-          </a>
-        
-      </div>
-    </div>
   
   
 <script src="/blog/js/shares.js"></script>
