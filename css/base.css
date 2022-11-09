@@ -382,7 +382,7 @@ a:hover {
 
 .category-list .category-list-item {
   font-size: 1.6rem;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 .category-list .category-list-item::marker {
