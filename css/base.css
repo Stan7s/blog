@@ -386,8 +386,9 @@ a:hover {
 }
 
 .category-list .category-list-item::marker {
-  content: "• ";
-  color: var(--color-text-base)
+  /* content: "• "; */
+  /* color: var(--color-text-base); */
+  color: rgb(52, 52, 52);
 }
 
 .category-list .category-list-item .category-list-child {
