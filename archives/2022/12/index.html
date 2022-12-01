@@ -11,7 +11,7 @@
   
   <title>
     
-      Tag 
+      archive_a: 2022/12 
       
       
       |
@@ -105,38 +105,255 @@
 
 
       <div class="flex-container">
-        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
-<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
 
-<!-- LaTex Display -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
+<!-- last: 按年份把文章分组，当前遍历到的年份 -->
+<!-- now: 当前遍历到的文章的发布年份 -->
 
-
-  <!-- 标签页 url形式：https://yoursite/tags/ -->
-  <div class="container tag-index">
-    <div>
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/0713/" rel="tag">0713</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/2022/" rel="tag">2022</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Academic-Writing/" rel="tag">Academic Writing</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Beginner-s-Guide/" rel="tag">Beginner&#39;s Guide</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Blog/" rel="tag">Blog</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Book/" rel="tag">Book</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Color-Scales/" rel="tag">Color Scales</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Elena-Ferrante/" rel="tag">Elena Ferrante</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Essentialist/" rel="tag">Essentialist</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Feminism/" rel="tag">Feminism</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Front-end/" rel="tag">Front-end</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Hexo/" rel="tag">Hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Journaling/" rel="tag">Journaling</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Lyrics/" rel="tag">Lyrics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Margaret-Atwood/" rel="tag">Margaret Atwood</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Memories/" rel="tag">Memories</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Mental-Health/" rel="tag">Mental Health</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Murmurs/" rel="tag">Murmurs</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Music/" rel="tag">Music</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Painting/" rel="tag">Painting</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Piano/" rel="tag">Piano</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Plugin/" rel="tag">Plugin</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Podcast/" rel="tag">Podcast</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Self-reflection/" rel="tag">Self-reflection</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Society/" rel="tag">Society</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Software/" rel="tag">Software</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Typography/" rel="tag">Typography</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Video/" rel="tag">Video</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/War/" rel="tag">War</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/Watercolor/" rel="tag">Watercolor</a><span class="tag-list-count">1</span></li></ul>
-    </div>
+<div class="container archives">
+  <div class="post-list">
+    
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2022</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="清单 · 2022年收听的音乐 | Music Listened in 2022">
+        <div class="time-m-d">12-01</div>
+        <div class="title">
+          <a href="/blog/2022/12/01/Apple-Music-2022/">
+            <span>清单 · 2022年收听的音乐 | Music Listened in 2022</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="碎片 · 没有标题">
+        <div class="time-m-d">11-29</div>
+        <div class="title">
+          <a href="/blog/2022/11/29/No-Title/">
+            <span>碎片 · 没有标题</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="R.I.P.">
+        <div class="time-m-d">11-26</div>
+        <div class="title">
+          <a href="/blog/2022/11/26/RIP/">
+            <span>R.I.P.</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="歌词 · 思念是一种病">
+        <div class="time-m-d">11-22</div>
+        <div class="title">
+          <a href="/blog/2022/11/22/Yearning-Is-a-Kind-of-Sickness/">
+            <span>歌词 · 思念是一种病</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="碎片 · 杂念的合集 | Think of Wind">
+        <div class="time-m-d">11-14</div>
+        <div class="title">
+          <a href="/blog/2022/11/14/Think-of-Wind/">
+            <span>碎片 · 杂念的合集 | Think of Wind</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="清单 · 水彩入门 | Watercolor for Beginners">
+        <div class="time-m-d">11-14</div>
+        <div class="title">
+          <a href="/blog/2022/11/14/Watercolor-for-Beginners/">
+            <span>清单 · 水彩入门 | Watercolor for Beginners</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="Notes · Choose Colors for Your Academic Paper">
+        <div class="time-m-d">11-12</div>
+        <div class="title">
+          <a href="/blog/2022/11/12/Choose-Colors-for-Your-Academic-Paper/">
+            <span>Notes · Choose Colors for Your Academic Paper</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="播客 · 从书单到「本质主义者」">
+        <div class="time-m-d">11-09</div>
+        <div class="title">
+          <a href="/blog/2022/11/09/List-of-list/">
+            <span>播客 · 从书单到「本质主义者」</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="碎片 · 手帐">
+        <div class="time-m-d">11-07</div>
+        <div class="title">
+          <a href="/blog/2022/11/07/Bullet-Journal/">
+            <span>碎片 · 手帐</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="碎片 · 追星与人类观察">
+        <div class="time-m-d">11-01</div>
+        <div class="title">
+          <a href="/blog/2022/11/01/Becoming-a-Fan/">
+            <span>碎片 · 追星与人类观察</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="笔记 · 字体排印学 | Typography">
+        <div class="time-m-d">10-31</div>
+        <div class="title">
+          <a href="/blog/2022/10/31/Typography/">
+            <span>笔记 · 字体排印学 | Typography</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="清单 · 今天看什么 | Video List">
+        <div class="time-m-d">10-27</div>
+        <div class="title">
+          <a href="/blog/2022/10/27/What-to-Watch/">
+            <span>清单 · 今天看什么 | Video List</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="碎片 · 为了被看的生活">
+        <div class="time-m-d">10-25</div>
+        <div class="title">
+          <a href="/blog/2022/10/25/Live-to-Peform/">
+            <span>碎片 · 为了被看的生活</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="Tools · Write Papers in LaTeX with VSCode and Zotero">
+        <div class="time-m-d">10-23</div>
+        <div class="title">
+          <a href="/blog/2022/10/23/Write-Latex-in-VSCode/">
+            <span>Tools · Write Papers in LaTeX with VSCode and Zotero</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="播客 · 性向流动的那一瞬">
+        <div class="time-m-d">10-23</div>
+        <div class="title">
+          <a href="/blog/2022/10/23/Fluid/">
+            <span>播客 · 性向流动的那一瞬</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="清单 · 自存播客列表 | Podcast Collection">
+        <div class="time-m-d">10-22</div>
+        <div class="title">
+          <a href="/blog/2022/10/22/Podcast-Collection/">
+            <span>清单 · 自存播客列表 | Podcast Collection</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="书摘 · Reading Lolita in Tehran | 在德黑兰读《洛丽塔》">
+        <div class="time-m-d">10-15</div>
+        <div class="title">
+          <a href="/blog/2022/10/15/Reading-Lolita-in-Tehran/">
+            <span>书摘 · Reading Lolita in Tehran | 在德黑兰读《洛丽塔》</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="书摘 · Self-Esteem | 自尊">
+        <div class="time-m-d">10-14</div>
+        <div class="title">
+          <a href="/blog/2022/10/14/Self-Esteem/">
+            <span>书摘 · Self-Esteem | 自尊</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="书摘 · The Testments | 证言">
+        <div class="time-m-d">10-03</div>
+        <div class="title">
+          <a href="/blog/2022/10/03/The-Testaments/">
+            <span>书摘 · The Testments | 证言</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="歌词 · 海上花 | Flowers of Shanghai">
+        <div class="time-m-d">08-25</div>
+        <div class="title">
+          <a href="/blog/2022/08/25/Flowers-of-Shanghai/">
+            <span>歌词 · 海上花 | Flowers of Shanghai</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="碎片 · 钢琴课">
+        <div class="time-m-d">08-08</div>
+        <div class="title">
+          <a href="/blog/2022/08/08/Piano-Lesson/">
+            <span>碎片 · 钢琴课</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="播客 · 独居">
+        <div class="time-m-d">08-07</div>
+        <div class="title">
+          <a href="/blog/2022/08/07/Living-Alone/">
+            <span>播客 · 独居</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="书摘 · La frantumaglia | 碎片">
+        <div class="time-m-d">02-25</div>
+        <div class="title">
+          <a href="/blog/2022/02/25/La-frantumaglia/">
+            <span>书摘 · La frantumaglia | 碎片</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="书摘 · Die Welt von Gestern | 昨日的世界">
+        <div class="time-m-d">02-24</div>
+        <div class="title">
+          <a href="/blog/2022/02/24/Die-Welt-von-Gestern/">
+            <span>书摘 · Die Welt von Gestern | 昨日的世界</span>
+          </a>
+        </div>
+      </div>
+    
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2021</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="工具 · Settle Down in Hexo">
+        <div class="time-m-d">12-28</div>
+        <div class="title">
+          <a href="/blog/2021/12/28/Settle-Down-in-Hexo/">
+            <span>工具 · Settle Down in Hexo</span>
+          </a>
+        </div>
+      </div>
+    
   </div>
-  
-
-  
-
-  
-
-  
-
-  
+</div>
 
         <div class="footer">
   <div class="social">
@@ -387,24 +604,6 @@ MathJax = {
 
 
         
-  
-    <div class="share-icon tools-bar-item">
-      <a href="javascript: void(0)" id="share-icon">
-        <i class="iconfont iconshare"></i>
-      </a>
-      <div class="share-content hidden">
-        
-          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + tags + '&url=' + http%3A%2F%2Fstan7s.github.io%2Fblog%2Ftags%2F + '" target="_blank" title="Twitter">
-            <i class="iconfont icon-twitter"></i>
-          </a>
-        
-        
-          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://stan7s.github.io/blog/tags/" target="_blank" title="Facebook">
-            <i class="iconfont icon-facebooksquare"></i>
-          </a>
-        
-      </div>
-    </div>
   
   
 <script src="/blog/js/shares.js"></script>
