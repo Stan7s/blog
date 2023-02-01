@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>芝士 · 从-1开始学统计推断</title>
+      <link href="/blog/2023/01/31/Statistical-Inference-Introduction/"/>
+      <url>/blog/2023/01/31/Statistical-Inference-Introduction/</url>
+      
+        <content type="html"><![CDATA[<p>In general, we denote statistics with uppercase letters, and the observed values of statistics with lowercase letters.</p><h2 id="Expectation-Variance-and-Standard-Deviation"><a href="#Expectation-Variance-and-Standard-Deviation" class="headerlink" title="Expectation, Variance, and Standard Deviation"></a>Expectation, Variance, and Standard Deviation</h2><p>For a random variable $X$,</p><ol><li>The expectation of $X$: $E(X) = \mu$</li><li>The variance of $X$: $Var(X) = E(X-E(X))^2 = \sigma^2$</li><li>The standard deviation of $X$: $\sqrt{Var(X)} = \sigma$</li></ol><p><a href="http://theanalysisofdata.com/probability/2_3.html">http://theanalysisofdata.com/probability/2_3.html</a></p><h2 id="Population-vs-Sample"><a href="#Population-vs-Sample" class="headerlink" title="Population vs. Sample"></a>Population vs. Sample</h2><p>A population of size $N$ is denoted as $X_1, \cdots, X_N$.<br>A random sample of size $n$ is denoted as $X_1, \cdots, X_n$.</p><p>The random variable or random vector $Y = T (X_1,\cdots,X_n)$ is called a <strong>statistic</strong>. The probability distribution of a statistic Y is called <strong>the sampling distribution of Y</strong>.</p><h3 id="Population-Statistic"><a href="#Population-Statistic" class="headerlink" title="Population Statistic"></a>Population Statistic</h3><ol><li>Population mean: $\mu = \frac{1}{N} \sum_{i=1}^N{X_i}$</li><li>Population variance: = $\sigma^2 = \frac{1}{N}\sum_{i=1}^N</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 芝士（🧀️） </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Statistics </tag>
+            
+            <tag> Notes </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>书摘 · Addiction by Design | 运气的诱饵</title>
       <link href="/blog/2023/01/24/Addiction-by-Design/"/>
       <url>/blog/2023/01/24/Addiction-by-Design/</url>
@@ -39,7 +66,7 @@
       <link href="/blog/2023/01/24/This-Week/"/>
       <url>/blog/2023/01/24/This-Week/</url>
       
-        <content type="html"><![CDATA[<h2 id="新床垫"><a href="#新床垫" class="headerlink" title="新床垫"></a>新床垫</h2><p>之前的床垫（5 inch, \$100）睡了一年半有点变形，趁过年换了一个新的（10 inch, \$240）。从有想法到下单之间没隔几天，有趣之处在于对物价的心态变化。刚来美国的时候，单价两百的家具在我眼里都是一千多人民币，属于完全不会考虑的范畴。大约是在待了一年之后，熟悉了货币对各种物品的购买力，才开始不在心里给价格乘七，\$240 也成为了一个合理的床垫价格。</p><p>另一个变化是决定从今年起开始记账。过去基本没有算过自己花多少钱，只知道 stipend 够花但也存不下来。今天分门别类算了一下，本月的基本生活（房租、吃饭、保险）花费在 \$1100 左右，剩下的钱去了各种奇怪的地方。</p><p>换下来的床垫还没想好怎么处理，暂时放在了卧室的地板上。现在我正趴在它上面敲字，偶尔抬头看看窗外枝头上厚厚的积雪。冰天雪地的北方，一个卧室被两张床垫铺满。我感到很幸福。</p><h2 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h2><p>昨天学习的时候突然觉得数学可以是答案……清晰的、有逻辑的推导过程使我陷入一种宁静且愉悦的状态，或者说，既兴奋又感到安全。</p><p>也许是上学期 dev psych 的那节课加深了我的困惑——我总觉得这些论文在试图「用复杂的手段抵达一个模式化的结果」，to me some of the discussions are trivial，但没有人解答我的疑问。（当然他们也没有义务回答，以及我总觉得问别人的学科的意义就像是问基督教徒为什么要相信上帝。）然而数学公式——理论之下、代码之上的公式——就不需要被提问，它完全摒除了冗余和客套，它本身就构成意义。</p><p>这样说仿佛又落了「数理至上主义」的窠臼。但事实是过去我对自然科学的爱跟太多因素（升学、未来发展、证明自己的智商）纠缠在一起，因此潜意识里认为自己对社会科学的向往更加「纯粹」。上学期的课是一次不太成功的尝试，也让我重新开始思考自己对社科的理解是否浮于表面。希望今年对两个方向的认识都能更进一步。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="新床垫"><a href="#新床垫" class="headerlink" title="新床垫"></a>新床垫</h2><p>之前的床垫（5 inch, \$100）睡了一年半有点变形，趁过年换了一个新的（10 inch, \$240）。从有想法到下单之间没隔几天，有趣之处在于对物价的心态变化。刚来美国的时候，单价两百的家具在我眼里都是一千多人民币，属于完全不会考虑的范畴。大约是在待了一年之后，熟悉了货币对各种物品的购买力，才开始不在心里给价格乘七，\$240 也成为了一个合理的床垫价格。</p><p>另一个变化是决定从今年起开始记账。过去基本没有算过自己花多少钱，只知道 stipend 够花但也存不下来。今天分门别类算了一下，本月的基本生活（房租、吃饭、保险）花费在 \$1100 左右，剩下的钱去了各种奇怪的地方。</p><p>换下来的床垫还没想好怎么处理，暂时放在了卧室的地板上。现在我正趴在它上面敲字，偶尔抬头看看窗外枝头上厚厚的积雪。冰天雪地的北方，一个卧室被两张床垫铺满。我感到很幸福。</p><h2 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h2><p>昨天学习的时候突然觉得数学可以是答案……清晰的、有逻辑的推导过程使我陷入一种宁静且愉悦的状态，或者说，既兴奋又感到安全。</p><p>也许是上学期 dev psych 的那节课加深了我的困惑——我总觉得这些论文在试图「用复杂的手段抵达一个模式化的结果」，to me some of the discussions are trivial，但没有人解答我的疑问。（当然他们也没有义务回答，以及我总觉得问别人的学科的意义就像是问基督教徒为什么要相信上帝。）然而数学公式——理论之下、代码之上的公式——就不需要被提问，它完全摒除了冗余和客套，它本身就构成意义。</p><p>这样说仿佛又落了「数理至上主义」的窠臼。但事实是过去我对自然科学的爱跟太多因素（升学、未来发展、证明自己的智商）纠缠在一起，因此潜意识里认为自己对社会科学的向往更加「纯粹」。上学期的课是一次不太成功的尝试，也让我重新开始思考自己对社科的理解是否浮于表面。希望今年对两个方向的认识都能更进一步。</p><h2 id="流浪地球-II"><a href="#流浪地球-II" class="headerlink" title="流浪地球 II"></a>流浪地球 II</h2><p>是一辈子割舍不掉的情愫。</p>]]></content>
       
       
       <categories>
