@@ -182,8 +182,40 @@ MathJax = {
 <p>The random variable or random vector $Y = T (X_1,\cdots,X_n)$ is called a <strong>statistic</strong>. The probability distribution of a statistic Y is called <strong>the sampling distribution of Y</strong>.</p>
 <h3 id="Population-Statistic"><a href="#Population-Statistic" class="headerlink" title="Population Statistic"></a>Population Statistic</h3><ol>
 <li>Population mean: $\mu = \frac{1}{N} \sum_{i=1}^N{X_i}$</li>
-<li>Population variance: = $\sigma^2 = \frac{1}{N}\sum_{i=1}^N</li>
+<li>Population variance: = $\sigma^2 = \frac{1}{N}\sum_{i=1}^{n}{(X_i - \bar{X})^2}$</li>
+<li>Population standard deviation: $\sigma = \sqrt{\sigma^2}$</li>
 </ol>
+<h3 id="Sample-Statistic"><a href="#Sample-Statistic" class="headerlink" title="Sample Statistic"></a>Sample Statistic</h3><ol>
+<li>Sample mean: $\bar{X} = \frac{1}{n} \sum_{i=1}^n{X_i}$</li>
+<li>Sample variance: $S^2 = \frac{1}{n - 1}\sum_{i=1}^n{(X_i - \bar{X})^2}$</li>
+<li>Sample standard deviation: $S = \sqrt{S^2}$</li>
+</ol>
+<p>Further, since the sample statistics themselves are random variables, we can compute their expectation and variance. For example,</p>
+<ol start="4">
+<li>The expectation of sample mean: $E(\bar{X})$</li>
+<li>The variance of sample mean (or the expected error of sample mean): $Var(\bar{X})$</li>
+</ol>
+<h2 id="Random-Sampling-vs-Simple-Random-Sampling"><a href="#Random-Sampling-vs-Simple-Random-Sampling" class="headerlink" title="Random Sampling vs. Simple Random Sampling"></a>Random Sampling vs. Simple Random Sampling</h2><p>According to Casella and Berger (2002, p.207 &amp; 210), </p>
+<ul>
+<li><strong>Random sampling</strong>: Draw n samples from a finite population <strong>with replacement</strong>. That is, each sample is independently and identically distributed (i.i.d.).</li>
+<li><strong>Simple random sampling</strong>: Draw n samples from a finite population <strong>without replacement</strong>. That is, each sample is identically but not independently distributed.</li>
+</ul>
+<p>Similar definition appears in <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Simple_random_sample">Wikipedia</a>:</p>
+<blockquote>
+<p>In small populations and often in large ones, [simple random] sampling is typically done “<strong>without replacement</strong>“, i.e., one deliberately avoids choosing any member of the population more than once.</p>
+</blockquote>
+<p>In Battacharya, Lin &amp; Patrangenaru (2016), the two cases are called <strong>simple random sample with replacement (SRSWR)</strong>, and <strong>simple random sample without replacement (SRSWOR)</strong>, respectively. The authors use the word “simple” to distinguish them from stratified random samples.</p>
+<p>For SRSWR, we can derive that</p>
+<ol>
+<li>$E(\bar{X}) = \mu$</li>
+<li>$Var(\bar{X}) = \frac{1}{n}\sigma^2$</li>
+</ol>
+<p>Similarly, for SRSWOR, </p>
+<ol>
+<li>$E(\bar{X}) = \mu$</li>
+<li>$Var(\bar{X}) = (\frac{1}{n} - \frac{n-1}{n(N-1)})\sigma^2$</li>
+</ol>
+<p>The proofs can be found <a target="_blank" rel="noopener" href="http://home.iitk.ac.in/~shalab/sampling/chapter2-sampling-simple-random-sampling.pdf">here</a>.</p>
 
       </div>
       
@@ -244,7 +276,7 @@ MathJax = {
   <div class="post-catalog hidden" id="catalog">
     <div class="title">Contents</div>
     <div class="catalog-content">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Expectation-Variance-and-Standard-Deviation"><span class="toc-text">Expectation, Variance, and Standard Deviation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Population-vs-Sample"><span class="toc-text">Population vs. Sample</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Population-Statistic"><span class="toc-text">Population Statistic</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Expectation-Variance-and-Standard-Deviation"><span class="toc-text">Expectation, Variance, and Standard Deviation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Population-vs-Sample"><span class="toc-text">Population vs. Sample</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Population-Statistic"><span class="toc-text">Population Statistic</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Sample-Statistic"><span class="toc-text">Sample Statistic</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Random-Sampling-vs-Simple-Random-Sampling"><span class="toc-text">Random Sampling vs. Simple Random Sampling</span></a></li></ol>
     </div>
   </div>
 
