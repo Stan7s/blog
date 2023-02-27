@@ -11,8 +11,8 @@
   
   <title>
     
-      Tag 
-       : Blog
+      芝士 · Interpreting BERT 
+      
       
       |
     
@@ -105,30 +105,153 @@
 
 
       <div class="flex-container">
-        <!-- 标签详情页，展示某个标签下的文章列表，url形式：https://yoursite/tags/某个标签/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<div class="container tag-details">
-  <div class="content-title">
-    <h2>
-      <span>Blog</span>
-    </h2>
-  </div>
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+
+
   
-    <div class="post-list">
-      <div class="post-item" title="工具 · Settle Down in Hexo">
-        <span class="time-m-d">2021-12-28</span>
-        <a href="/blog/2021/12/28/Settle-Down-in-Hexo/">
-          <span>工具 · Settle Down in Hexo</span>
-        </a>
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">芝士 · Interpreting BERT</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="Update time"></i>
+          2023-02-22 11:05:41
+        </span>
+        
+              <span class="post-categories">
+                <i class="iconfont icon-bookmark" title="Categories"></i>
+                
+                <span class="span--category">
+                  <a href="/blog/categories/%E8%8A%9D%E5%A3%AB%EF%BC%88Knowledge-%F0%9F%A7%80%EF%B8%8F%EF%BC%89/" title="芝士（Knowledge 🧀️）">
+                    <b>#</b> 芝士（Knowledge 🧀️）
+                  </a>
+                </span>
+                
+              </span>
+          
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="Tags"></i>
+                
+                <span class="span--tag">
+                  <a href="/blog/tags/Arxiv/" title="Arxiv">
+                    <b>#</b> Arxiv
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/blog/tags/NLP/" title="NLP">
+                    <b>#</b> NLP
+                  </a>
+                </span>
+                
+                <span class="span--tag">
+                  <a href="/blog/tags/Papers/" title="Papers">
+                    <b>#</b> Papers
+                  </a>
+                </span>
+                
+              </span>
+          
       </div>
+      <div class="markdown-body">
+        <p><a target="_blank" rel="noopener" href="https://captum.ai/tutorials/IMDB_TorchText_Interpret">Captum · Model Interpretability for PyTorch</a></p>
+<blockquote>
+<p>Captum helps ML researchers more easily implement interpretability algorithms that can interact with PyTorch models. It also allows researchers to quickly benchmark their work against other existing algorithms available in the library.</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2210.07469.pdf">StyLEx: Explaining Styles with Lexicon-Based Human Perception</a></p>
+<p>对于同一个 label（比如认为一句话的sentiment为positive），Human 和 Model 给出的 explanation （根据哪几个词判断这句话 positive）经常不一致。作者试图让 Model 学会人的 explanation。</p>
+<p>Hayati et al. (2021) define human perception as <strong>the human ratings of the contributions of words in a sentence to its style.</strong> We incorporate these human perception scores on each word of a sentence into the model by training a BERT-based classifier that <strong>jointly predicts the style label for both the sentence and words in the sentence.</strong></p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/blog/2023/02/06/This-Week/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="Update time"></i>
+              2023-02-22 11:05:41
+            </span>
+            
+                  <span class="post-categories">
+                    <i class="iconfont icon-bookmark" title="Categories"></i>
+                    
+                    <span class="span--category">
+                      <a href="/blog/categories/%E8%8A%9D%E5%A3%AB%EF%BC%88Knowledge-%F0%9F%A7%80%EF%B8%8F%EF%BC%89/" title="芝士（Knowledge 🧀️）">
+                        <b>#</b> 芝士（Knowledge 🧀️）
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="Tags"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/blog/tags/Arxiv/" title="Arxiv">
+                        <b>#</b> Arxiv
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/blog/tags/NLP/" title="NLP">
+                        <b>#</b> NLP
+                      </a>
+                    </span>
+                    
+                    <span class="span--tag">
+                      <a href="/blog/tags/Papers/" title="Papers">
+                        <b>#</b> Papers
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+              <a href="/blog/2023/02/25/This-Week/" target="_self">
+                <span>Next</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
+            
+          </div>
+        </div>
+      
     </div>
-  
-  <nav class="post-navigation">
     
-    <span class="page-num">1 / 1</span>
+
     
-  </nav>
-</div>
+  </div>
+
 
         <div class="footer">
   <div class="social">
@@ -145,7 +268,7 @@
   
     <div class="footer-more">
       
-        <a target="_blank" rel="noopener" href="https://github.com/Stan7s/stan7s.github.io/">Copyright © Stan7s 2021-2022</a>
+        <a target="_blank" rel="noopener" href="https://github.com/Stan7s/stan7s.github.io/">Copyright © Stan7s 2021-2023</a>
         
     </div>
   
@@ -379,6 +502,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E8%8A%9D%E5%A3%AB%20%C2%B7%20Interpreting%20BERT + '&url=' + http%3A%2F%2Fstan7s.github.io%2Fblog%2F2023%2F02%2F22%2FInterpreting-BERT%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://stan7s.github.io/blog/2023/02/22/Interpreting-BERT/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/blog/js/shares.js"></script>
