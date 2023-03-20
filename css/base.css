@@ -1,9 +1,5 @@
 @import 'lxgw-wenkai-webfont/style.css';
 
-body {
-  font-family: "LXGW WenKai", sans-serif;
-}
-
 /* Mono font (optional) */
 pre,code {
   font-family: "LXGW WenKai Mono", sans-serif;
@@ -19,7 +15,7 @@ html, body {
   letter-spacing: 0rem;
   background-color: var(--bg-body);
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
-  font-family: Optima, "Songti SC";
+  font-family: "LXGW WenKai", Optima, "Songti SC";
 }
 
 body.hidden {
