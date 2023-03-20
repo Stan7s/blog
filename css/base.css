@@ -1,3 +1,14 @@
+@import 'lxgw-wenkai-webfont/style.css';
+
+body {
+  font-family: "LXGW WenKai", sans-serif;
+}
+
+/* Mono font (optional) */
+pre,code {
+  font-family: "LXGW WenKai Mono", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
